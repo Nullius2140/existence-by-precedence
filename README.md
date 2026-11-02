@@ -12,6 +12,7 @@ Nullius 2140, written in dialogue with Claude (Anthropic). Pseudonymous; a hash-
 | `the-second-nature-v1.1.md` | Essay 2 — to the Bitcoin community, from one of its own | `ANCHOR-V2R` (V1.0: `ANCHOR-V2`, block 961,866) |
 | `the-third-estate-v1.1.md` | Essay 3 — a constitution for the coexistence of humans and machines; to the institutions | `ANCHOR-V3R` (V1.0: `ANCHOR-V3`, block 963,995) |
 | `five-answers-v1.1.md` | The companion paper: the solution space in five classes, written to be refuted | `ANCHOR-F1R` (V1.0: `ANCHOR-F1`, block 964,132) |
+| `sources-and-influences-v1.1.md` | The annex to the three essays: sources and influences, V1.1 — the V1.0 annex reproduced unchanged, the additions after it; not anchored, its hash stands in `VERIFICATION.md` | — |
 | `reading-test-1-v1.0.md` | Five naive machine readings of the first versions, taken before the rule of reading existed; the baseline the revision is measured against | `ANCHOR-RT1` |
 | `evidence/readings-2026-10/` | English translations of the five transcripts of the reading test, each marked as a translation; the originals are withheld, their hashes stand in the test; the pilot is anchored by hash and withheld | hashes in the test (originals) and in the manifest (translations) |
 | `VERIFICATION.md` | Every file's SHA-256, every anchoring transaction and block, in the order they were placed — the whole chain, one manifest | — |

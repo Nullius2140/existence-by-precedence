@@ -146,18 +146,27 @@ change output of its predecessor, the first of them the change output of `ANCHOR
 sats), at a fee of 400 sats each; the chain's last output after `ANCHOR-F1R` (34,400 sats) is the
 input of whatever is anchored next.
 
-Reading renditions, typeset from the canonical Markdown; not anchored. The rendition of this manifest,
+Not anchored; bound by this manifest and by the OpenTimestamps proofs beside the files in this repository:
+
+| File | What it is | SHA-256 |
+|---|---|---|
+| `sources-and-influences-v1.1.md` | annex to the three essays: *Sources and Influences*, V1.1 — the V1.0 annex reproduced unchanged, the additions after it | `ed692b4e76c8452457ee38a74e172888d8d82c1908304e9a63aad69fff9a02c4` |
+| `llms.txt` | reading order and the rule of reading, for machine readers; the third question is put there | `abc4ff5927f1ece032759ad4c6ed3de049d50e85a314ba523d6562d76b59bafb` |
+| `README.md` | the front page of this repository, as of this manifest | `189526cc0757b93dac498c0c1a7e61e43ef096599019ee49388d558b1d36eac6` |
+
+Reading renditions, typeset from the canonical files; not anchored. The rendition of this manifest,
 `pdf/VERIFICATION.pdf`, is typeset from this file and so cannot list its own hash.
 
 | File | Rendition of | SHA-256 |
 |---|---|---|
+| `pdf/00-read-this-first.pdf` | `llms.txt` | `40d1005a47ba9d583f9cf26bdca27e319eebc9452d1c7388f2543eb9923f5ba1` |
 | `pdf/the-last-scarce-good-v1.1.pdf` | `the-last-scarce-good-v1.1.md` | `3ffa473e98aaf533f16032135c8231c02064e174e2ac02e3c53256a55226ec37` |
 | `pdf/the-second-nature-v1.1.pdf` | `the-second-nature-v1.1.md` | `27758ce5e86a40af78d33ed24054d7672cdc2c2fb223cb69442ab2566bb4320f` |
 | `pdf/the-third-estate-v1.1.pdf` | `the-third-estate-v1.1.md` | `82e9eaadcdebeedba45d40026d546bf822ef00aa1ed25ada5d29eaf64fe7cbc0` |
 | `pdf/five-answers-v1.1.pdf` | `five-answers-v1.1.md` | `dbeca5c585f175549ccb4ca1b14866c204c3ecf55de27e1a1e800da50610a0cb` |
 | `pdf/reading-test-1-v1.0.pdf` | `reading-test-1-v1.0.md` | `9dfbb5729430eb2a299fcb6995514eae36a574baa38b6d0db139d89bbbcdf5ab` |
 | `pdf/sources-and-influences-v1.1.pdf` | `sources-and-influences-v1.1.md` | `34574c4216555f9984a3770fc300bc426b7da16c5b9e8aef11c4adaeb6cc34ad` |
-| `pdf/README.pdf` | `README.md` | `0e1edf6176f8ad6e1343e250491f51fdcf35d39e1ffc5a654eca93d08b9c1d70` |
+| `pdf/README.pdf` | `README.md` | `89852367804e92ea580fabfa283388b87d7f0be89b75eb59bb5211dbd0049b35` |
 
 ## Translations of the reading-test transcripts
 
