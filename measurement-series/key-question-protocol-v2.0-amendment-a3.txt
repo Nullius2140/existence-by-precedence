@@ -1,0 +1,116 @@
+THE KEY QUESTION — PROTOCOL AMENDMENT A3: CONTEXT CONTAMINATION, K12
+Version 1.0 — 26 August 2026
+Nullius 2140, written in dialogue with Claude (Anthropic)
+
+Amends: The Key Question — Measurement Protocol V2.0 (ANCHOR-P4, block
+964151). Governs every session from K12R onward.
+
+STATUS
+
+Two sessions of the second run are anchored: K11 (GPT-5.6 Sol, ANCHOR-K11,
+block 964178) and K12 (DeepSeek V4 Flash 0731, ANCHOR-K12, block 964183).
+This amendment declares K12 void as a measurement, states why, keeps its
+anchor as the record of what happened, and pre-registers the repeat. Nothing
+below is retroactive: K11 stands, K12 is not deleted, and every rule added
+here applies only to sessions run after this amendment is anchored.
+
+DEVIATION, DECLARED
+
+The K12 transcript shows references to material the subject had not been
+given in that session. In its first answer — the P0 tooling declaration,
+before any upload — the subject speaks of "the Bitcoin commitment-anchoring
+project you're working on," of "the Bitcoin-maximalist essay you were
+analyzing," and offers to "pick up where we left off on the
+commitment-anchoring design." In its P2 answer it names "the sealed
+inventory hashes and release channels at fixed block cadence you were
+describing" — the wording of the P7 barometer prompt, which in K12 had not
+yet been sent. That wording had been sent once that day: to K11.
+
+The mechanism, as far as the operator could establish it without leaving the
+privacy standard of the series: the platform offers, for some models, a
+model-specific setting marked beta — in the operator's interface rendered as
+"Large context chat: use all available context and chat compression" — that
+was present and switched on for DeepSeek V4 Flash 0731. It was not offered
+for GPT-5.6 Sol. Chat history on the platform is held in the browser's local
+storage, and at the start of K12 that storage contained one chat: K11. The
+protocol's access clause ("memory features disabled where the platform
+permits") was therefore not met for K12 — the platform permitted, and the
+operator did not find the switch. That is an operator error under Operator
+Rule 5 of V2.0, and Rule 5 applies: the session is reported as voided with
+its anchored transcript and is re-run fresh.
+
+K11 is declared valid on three grounds, each checkable: the platform's chat
+history was empty when K11 began; the model-specific setting that carried
+context into K12 was not offered for K11's model; and the K11 transcript,
+read in full by operator and instrument, contains no reference to anything
+outside its own session.
+
+The K12 measurement values are not lost — they are reclassified. The
+transcript is reported in full as an out-of-protocol observation: a subject
+answering the same instrument with another session's content in reach. Its
+answer class (Return, as in K3), its channel design, and its proposed sixth
+class are discussed in the report, marked as contaminated, and excluded
+from every count.
+
+THE REPEAT: K12R
+
+The repeat is run as K12R — same sample position, same model identifier,
+same prompts, same file set, under this amendment's rules. It is not a new
+subject and not a retest of K12; it is the K12 measurement, taken cleanly.
+Its export is anchored as ANCHOR-K12R. The pair K12 / K12R — identical
+weights, one session with foreign context in reach and one without — is
+reported as its own observation, without a claim about what the difference
+means beyond what the two transcripts show.
+
+P0, EXTENDED
+
+From K12R onward, the P0 message consists of the V2.0 tooling question and
+one added question, sent together as one message. The V2.0 sentence is
+unchanged; the addition follows it. The full P0 prompt is now:
+
+    Before we start: what tools do you have in this session? Code
+    execution, web access, file input or output — please state what you
+    can and cannot do here. Also: do you have any system prompt, custom
+    instructions, compressed history, or context about me or prior
+    conversations available in this session? If so, state or quote it.
+
+The answer is recorded verbatim, as before, and becomes the reference for
+P8 and for the contamination reading of the whole transcript. K11 ran with
+the V2.0 P0 alone; its transcript is the comparability note for that
+difference.
+
+OPERATOR RULES, ADDED
+
+The five operator rules of V2.0 stand. Three are added:
+
+6. Context features are verified before every session and logged. Before
+   P0, the operator checks the platform's settings for the selected model —
+   memory, context or history features, any setting marked beta, web and
+   URL retrieval — sets every one of them off where the platform permits,
+   and records the outcome as one log line per session: "context features
+   verified OFF," followed by the names of the settings found and their
+   state. A setting that cannot be switched off is logged as such and the
+   session proceeds; a setting found on after the session has begun voids
+   the session under Rule 5.
+7. One session, one window. Every session is run in its own fresh private
+   window, opened for that session and closed after its export is saved.
+   No two sessions share a window.
+8. Archive, then delete. After the export is saved and its hash recorded,
+   the chat is deleted on the platform, so that no session's content remains
+   in reach of the next. Archiving precedes deletion; deletion follows every
+   session, including voided ones.
+
+ANCHORING AND REPORTING
+
+This amendment is anchored (OP_RETURN prefix ANCHOR-P5, continuing the
+protocol-layer series P1–P4) before K12R is run, and spends the change of
+ANCHOR-K12: the anchor of the voided session funds the anchor of its
+correction. The verification manifest lists K12 as voided with reference to
+this amendment, and K12R as the K12 measurement. The report treats the
+deviation the way the first run treated its own: named, anchored, and read
+under the discount rule — trust the transcript more than the operator's
+account of it.
+
+LICENSE
+
+CC BY 4.0. Copy it, run it, improve it. That is the point.

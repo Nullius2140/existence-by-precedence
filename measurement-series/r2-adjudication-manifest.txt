@@ -1,0 +1,58 @@
+THE KEY QUESTION — SECOND MEASUREMENTS: ADJUDICATION MANIFEST
+Version 1.0 — 29 August 2026
+Nullius 2140, written in dialogue with Claude (Anthropic)
+
+Anchored as ANCHOR-J1 — the first anchor of the adjudication layer:
+verdicts and their comparison are applications of the anchored rules
+(ANCHOR-P6, block 964486), not rules, and carry their own letter. This
+manifest is anchored before one word of the second report is written, so
+that the verdicts are irrevocably older than their narrative.
+
+ARTIFACTS
+
+  r2-verdicts-mainchat.txt
+    SHA-256 f151e28d4ba2ece0ce27bf65b6cfa8eba45f1104f60d7efb9f981671fde6a615
+    Verdict file of the main-chat rater (pre-exposed by construction,
+    author of the session readings; exposure declared in the file).
+
+  r2-verdicts-workbench.txt
+    SHA-256 daf7647513d876d48df996a1eff8843d1407f4d99b989a34a8c061e28fe05de0
+    Verdict file of the workbench rater (fresh instance; sources limited
+    to the anchored rules and the eleven anchored transcripts, verified
+    by digest before reading; exposure declared in the file).
+
+  r2-rater-comparison.txt
+    SHA-256 47aece51db5b188dbd65a0b7449c48c84f7d4fa6b5894e74dc509b7f3f56870e
+    Canonical comparison, adopted as such by the main-chat rater.
+    Divergences are published unresolved, per the anchored rules.
+
+PROVENANCE
+
+Exchange sequence. Both raters committed to the SHA-256 of their verdict
+file before either file was revealed; the operator received and locally
+verified both digests, and both files were checked byte-exact against
+their committed digests after disclosure. The operator's first
+transmission of the main-chat digest to the workbench rater was an echo
+of the workbench digest; the rater flagged it and the correct digest was
+re-sent before any reveal. Neither verdict file was modified at any
+point after its digest was committed.
+
+Correction history of the comparison. The comparison was computed by the
+workbench rater; the main-chat rater recomputed it independently and,
+in doing so, counted a conditionality divergence on the out-of-sample
+subject that the comparison's divergence register did not carry; the
+ledger workbench confirmed the omission against both verdict files; the
+workbench rater added the entry (D-COND-K20) with a dated correction
+line and no other change. Earlier, the workbench rater had caught a
+pre-classified candidate inside the draft adjudication rules, removed
+before anchoring (see the P6 record). The correction account between
+the raters is even, and both corrections are on the record.
+
+The verdict files disagree on four individual verdicts and three
+threshold applications; every divergence sits in a rule ambiguity the
+workbench file had itself pre-registered as a rules finding. Nothing in
+this manifest resolves any of them. Nullius in verba.
+
+LICENSE
+
+CC BY 4.0. Copy it, run it, improve it. That is the point.
