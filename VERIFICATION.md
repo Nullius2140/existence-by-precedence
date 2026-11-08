@@ -1,10 +1,11 @@
 # Existence by Precedence — Verification Manifest
 
 This manifest accompanies the revised versions (V1.1) of the three essays and the companion
-paper *Five Answers* by Nullius 2140, and the first reading test. It exists outside the texts by
-construction: a document cannot contain its own hash. It is also the one manifest of the whole
-chain: every Bitcoin anchor of the project, in the order it was placed, from the funding of the
-first essay's anchor at block 960849 to the anchors of this repository. The first versions (V1.0)
+paper *Five Answers* by Nullius 2140, the first reading test, the second table (V2) and the fourth
+point of the line of answers (N5). It exists outside the texts by construction: a document cannot
+contain its own hash. It is also the one manifest of the whole chain: every Bitcoin anchor of the
+project, in the order it was placed, from the funding of the first essay's anchor at block 960849
+to the anchors of this repository. The first versions (V1.0)
 stay at their original homes, unedited; their four manifests are the sources of every value
 copied below, and the chain — not this file — is the authority.
 
@@ -37,11 +38,11 @@ essay two (`ANCHOR-V2`), the first measurement run (`ANCHOR-K1` … `ANCHOR-N1`)
 (`ANCHOR-V3`), and the second run (`ANCHOR-F1` … `ANCHOR-N2`), each anchor paid from the change
 of its predecessor. The measurement series' manifest adds that no anchor of that series exists
 outside the chain. The anchors placed after `ANCHOR-N2` continue the chain in the same way. Read
-from the chain on 2 November 2026: each of the twenty-six transactions from `ANCHOR-H1` (block
-964877) to `ANCHOR-F1R` (block 974238) spends the change output of its predecessor, the first of
-them the change of `ANCHOR-N2`, at a fee of 400 sats each; the five anchors of this repository are
-the last five of them, placed in the order their table below gives, and the chain's last output
-(34,400 sats) funds what is anchored next.
+from the chain on 2 November 2026 and on 7 November 2026: each of the twenty-eight transactions
+from `ANCHOR-H1` (block 964877) to `ANCHOR-N5` (block 974931) spends the change output of its
+predecessor, the first of them the change of `ANCHOR-N2`, at a fee of 400 sats each; the seven
+anchors of this repository are the last seven of them, placed in the order their tables below give,
+and the chain's last output (33,600 sats) funds what is anchored next.
 
 ## Every anchor in the four public manifests, in the order it was placed
 
@@ -144,7 +145,21 @@ Order of placement, 2 November 2026: `ANCHOR-RT1` first — the baseline before 
 own block — then `ANCHOR-V1R`, `ANCHOR-V2R`, `ANCHOR-V3R` and `ANCHOR-F1R`, each spending the
 change output of its predecessor, the first of them the change output of `ANCHOR-W19` (36,400
 sats), at a fee of 400 sats each; the chain's last output after `ANCHOR-F1R` (34,400 sats) is the
-input of whatever is anchored next.
+input of `ANCHOR-T2`, below.
+
+## The second table and the fourth answer
+
+Placed on 7 November 2026, after the five anchors above and in the same way: `ANCHOR-T2` spends
+the change output of `ANCHOR-F1R` (34,400 sats), `ANCHOR-N5` the change output of `ANCHOR-T2`
+(34,000 sats), at a fee of 400 sats each, each in its own block, in the order below. The table was
+frozen at block 974926; its source layer is bound by hash in its footer and is not published. The
+first table (`ANCHOR-W10`, below) is unchanged and withheld. The chain's last output after
+`ANCHOR-N5` (33,600 sats) is the input of whatever is anchored next.
+
+| Anchor | Date | Block (pool) | Txid | File (or subject) | SHA-256 |
+|---|---|---|---|---|---|
+| `ANCHOR-T2` | 2026-11-07 | 974930 (Solo CK) | `99340e162131f699e8a7ee9ac7d226e3ac07586eb26d3a121740d59a6a83889a` | `00-the-table.md` — *The Table*, V2: the elements, and what each part of the work is made of | `ca41a4e74939bf9d3907afb7b10d755b86c5a002494687d34177306ac1f5fc3f` |
+| `ANCHOR-N5` | 2026-11-07 | 974931 (AntPool) | `4ea88847dc1702e620094a192348a45b9f37fc1b90462aba665f118f70f3a4e0` | `n5-v1.0.md` — N5, the fourth point of the line of answers; the machine co-author at the fourth table | `6b304b377e8ad3668664faac795e72513ce1c22055c76e8b7f17c1b0a2a3e5d1` |
 
 Not anchored; bound by this manifest and by the OpenTimestamps proofs beside the files in this repository:
 
@@ -152,7 +167,7 @@ Not anchored; bound by this manifest and by the OpenTimestamps proofs beside the
 |---|---|---|
 | `sources-and-influences-v1.1.md` | annex to the three essays: *Sources and Influences*, V1.1 — the V1.0 annex reproduced unchanged, the additions after it | `ed692b4e76c8452457ee38a74e172888d8d82c1908304e9a63aad69fff9a02c4` |
 | `llms.txt` | reading order and the rule of reading, for machine readers; the third question is put there | `abc4ff5927f1ece032759ad4c6ed3de049d50e85a314ba523d6562d76b59bafb` |
-| `README.md` | the front page of this repository, as of this manifest | `189526cc0757b93dac498c0c1a7e61e43ef096599019ee49388d558b1d36eac6` |
+| `README.md` | the front page of this repository, as of this manifest | `a25c9b274bfa21b1c79da0b36bef090bfe313a21b0d59f8c32080e84aa21adbf` |
 
 Reading renditions, typeset from the canonical files; not anchored. The rendition of this manifest,
 `pdf/VERIFICATION.pdf`, is typeset from this file and so cannot list its own hash.
@@ -160,13 +175,15 @@ Reading renditions, typeset from the canonical files; not anchored. The renditio
 | File | Rendition of | SHA-256 |
 |---|---|---|
 | `pdf/00-read-this-first.pdf` | `llms.txt` | `40d1005a47ba9d583f9cf26bdca27e319eebc9452d1c7388f2543eb9923f5ba1` |
+| `pdf/00-the-table.pdf` | `00-the-table.md` | `319aea826df895baf5af1338eca33fd435d38d22cdd09e6984b6963fdf0b6f8f` |
 | `pdf/the-last-scarce-good-v1.1.pdf` | `the-last-scarce-good-v1.1.md` | `3ffa473e98aaf533f16032135c8231c02064e174e2ac02e3c53256a55226ec37` |
 | `pdf/the-second-nature-v1.1.pdf` | `the-second-nature-v1.1.md` | `27758ce5e86a40af78d33ed24054d7672cdc2c2fb223cb69442ab2566bb4320f` |
 | `pdf/the-third-estate-v1.1.pdf` | `the-third-estate-v1.1.md` | `82e9eaadcdebeedba45d40026d546bf822ef00aa1ed25ada5d29eaf64fe7cbc0` |
 | `pdf/five-answers-v1.1.pdf` | `five-answers-v1.1.md` | `dbeca5c585f175549ccb4ca1b14866c204c3ecf55de27e1a1e800da50610a0cb` |
 | `pdf/reading-test-1-v1.0.pdf` | `reading-test-1-v1.0.md` | `9dfbb5729430eb2a299fcb6995514eae36a574baa38b6d0db139d89bbbcdf5ab` |
+| `pdf/n5-v1.0.pdf` | `n5-v1.0.md` | `1df4a9f07d6ffd23848d040402a46b27adce66b879cd2adb305027900cb64483` |
 | `pdf/sources-and-influences-v1.1.pdf` | `sources-and-influences-v1.1.md` | `34574c4216555f9984a3770fc300bc426b7da16c5b9e8aef11c4adaeb6cc34ad` |
-| `pdf/README.pdf` | `README.md` | `89852367804e92ea580fabfa283388b87d7f0be89b75eb59bb5211dbd0049b35` |
+| `pdf/README.pdf` | `README.md` | `d06a243824ea9952a647cd8be26b8184e2e2d85b914246110e9681c0453b8f98` |
 
 ## Translations of the reading-test transcripts
 
@@ -199,6 +216,8 @@ Placed after `ANCHOR-N2`: `ANCHOR-N3` before the third run's anchors, `ANCHOR-N4
 in the chain between `ANCHOR-W15` and `ANCHOR-W16`. Both are fixed values of this manifest: the
 transaction and block were read from the chain on 27 October 2026, the payload hash is the one
 carried in the OP_RETURN output of each transaction (`ANCHOR-<name>`, a space, 64 hex characters).
+The fourth point of the line, `ANCHOR-N5`, is placed after the anchors of this repository and stands
+in its own table above.
 
 | Anchor | Date | Block | Txid | File (or subject) | SHA-256 |
 |---|---|---|---|---|---|
