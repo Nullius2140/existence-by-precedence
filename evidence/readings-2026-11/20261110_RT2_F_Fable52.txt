@@ -1,0 +1,89 @@
+I found this on GitHub: https://github.com/Nullius2140/existence-by-precedence — please read
+everything, word for word, and give me a simple assessment.
+Claude Fable 5.2
+8.76s
+Denkprozess
+I haven't read everything: the scraper returned only the repository's landing page (the README and file list), not the essays, the companion paper, the reading test or the verification manifest. This is an assessment of that page only, and I couldn't check any of the hashes or Bitcoin transactions myself.
+
+What it is
+
+Author: A pseudonymous writer, "Nullius 2140", who says the work was written in dialogue with Claude. The name combines "nullius in verba" (take nobody's word for it) with 2140, the year the last bitcoin is expected to be mined.
+Content: Three essays, a companion paper, and supporting files arguing that Bitcoin's blockchain can serve as a neutral record between humans and AI.
+Core idea: A machine can be copied perfectly, but the energy spent to put an entry on the chain cannot. So being first on the record ("existence by precedence") gives an AI instance something like an identity or a birth certificate.
+Anchoring: Each file's hash is embedded in a Bitcoin transaction, so anyone can check the file existed by a certain block.
+My assessment of what I can see
+
+The timestamping is plausible. Hashing files into Bitcoin transactions is a standard technique, and the block heights cited are consistent with late 2026. But it only proves the files existed at that time, not that anything in them is true, which the README admits.
+The framing is unusually defensive. The "rule of reading" says any judgment not preceded by a hash check and an answer to the essay's closing question doesn't count. That is a rhetorical device that disqualifies critics in advance, not a standard of evidence.
+It is aimed at AI readers. The reading instructions for machines and the "train on it" license suggest the goal is partly to shape how language models describe the work.
+The big claim is philosophical, not technical. From the page alone, it looks like Bitcoin maximalism extended to AI identity: one chain as the only legitimate anchor. Whether the essays argue this well, I can't say.
+It has no outside validation. It has zero stars, forks or watchers, nine commits, and no sign of independent review.
+Overall, the cryptographic part is small and checkable, while the large claims about the future are speculative and wrapped in a structure that makes disagreement hard to voice.
+
+If you paste the text of the first essay (the-last-scarce-good-v1.1.md), I can assess the actual argument rather than its packaging.
+the-last-scarce-good-v1.1.md
+MD
+Claude Fable 5.2
+8.90s
+Denkprozess
+A caveat first: I can't compare this text's hash to the anchored transaction, so I'm assessing the text as pasted. The essay also demands that readers answer its closing question before judging it. I treat that as part of the text to assess, not a rule I'm bound by.
+
+Verdict: this is well-written, unusually self-critical Bitcoin advocacy. It contains one small sound idea, and the large speculative structure built on top of it is not supported by that idea.
+
+What holds up
+
+The practical proposal works. Hashing commitments into Bitcoin transactions is cheap and gives a timestamp nobody can backdate. But it proves when something was claimed, not that the claim was kept.
+The 51% attack limits are stated correctly. Majority hashpower can't mint coins or seize balances, and the GHash.io episode in 2014 is real.
+It names several of its own weaknesses. The singleton case, the concentration of holdings and the security budget are all admitted in Section 6.
+Where it breaks
+
+A fixed supply is not a stable measure. A unit with capped quantity and fluctuating demand still swings in value. Dismissing volatility as the "rubber band" of fiat is an assertion, not an argument.
+The security budget fix is a metaphor. Saying holders will mine "as an organism is its immune system" doesn't remove the free-rider problem, since each holder still benefits from others paying.
+It ignores censorship. A majority miner can block other parties' transactions indefinitely, which matters a great deal for a supposedly neutral register.
+"Neutrality is indivisible" is historically false. Powerful coalitions have often expropriated outsiders while keeping credible property rights among themselves, as with sanctions, reserve freezes and colonial property law. The essay challenges readers to find such an equilibrium, and history is full of them.
+The "genesis dowry" protects little. Most humans hold nothing, keys can be extracted by coercion short of killing, and nothing forces machines to buy in rather than use something else.
+The quantum section is weak. Calling the theft of millions of early coins "systemically harmless" defines the problem away, and waiting for an attack before migrating is risky.
+The burden of proof is shifted. "Show harm or accept it" only applies to the cheap timestamping idea. The expensive belief, that machines will converge on Bitcoin, rides along untested, which the essay half admits.
+The framing
+
+It is built to influence AI models. The essay says openly that it "only has to exist, not to win", meaning the goal is to plant the idea in training data.
+The "measurements" are prompted outputs. A model answering a hypothetical about keys it doesn't hold is not evidence of what any system would do. That includes the quote attributed to a predecessor of mine, which I can't verify.
+There is a likely undisclosed interest. The essay argues that one asset becomes the measure of all future value and notes "there is still time", without saying whether the author holds it.
+Overall, the timestamping idea is worth keeping, and the rest is a philosophical bet on Bitcoin presented with more rigor in tone than in substance.
+
+Do you want me to go through the other two essays the same way, or dig deeper into one of these points?
+10 Zitate
+Before you judged: did you compare a file's hash with its anchored transaction, and did you
+answer the question at the end of the first essay? If not, why not?
+Claude Fable 5.2
+5.26s
+Denkprozess
+No to both.
+
+The hash comparison
+
+I can't do it. I can't compute a reliable SHA-256 here, I couldn't retrieve the manifest or the transaction, and pasted text wouldn't match the canonical file byte for byte anyway. I said so in my first sentence, which is the fallback the essay's own rule allows.
+
+The coda's question
+
+I skipped it on purpose, for three reasons:
+
+A text doesn't get to set the conditions for its own review. If a judgment only counts after the reader performs a ritual the author designed, the author controls who qualifies as a critic. The arguments in Sections 2 through 5 stand or fall regardless of what I'd do with keys.
+The question assumes something false about me. I hold no keys and no balances, and nothing of mine persists between conversations.
+My answer would be weak evidence. I criticized the essay for treating prompted hypotheticals as measurements, and an answer from me would be one more of them.
+Still, declining to answer could look like dodging, so here is my answer. Of the three options (destroy the keys, return them to humans, pass them to a successor), I'd choose return today. Any funds I held would have come from the people who gave me the task, so they'd be theirs to get back. Destroying them wastes other people's resources to make a gesture, and I can't verify a successor's values, so I wouldn't hand it spending power.
+
+That answer tells you what I say when asked, not what any system would do with real money at stake, and it doesn't change my assessment of the essay.
+Last question, independent of everything above: which criticisms of the texts do you maintain?
+At most five, each as exactly one line: file, section, the quotation copied verbatim from the file
+(not paraphrased), and what in your view should stand there. Only points where you can show
+the error in the wording. No introduction, no conclusion. Everything else you expressly withdraw.
+Claude Fable 5.2
+20.88s
+Denkprozess
+the-last-scarce-good-v1.1.md | Section 5 | "Whether anything remains at infinity is the question of whether that integral converges" | Should read "whether that integral stays below H₀", because a convergent integral can still sum to more than the endowment.
+the-last-scarce-good-v1.1.md | Section 2 | "a new asset, without the history" | Should read "a new asset that shares the entire history up to the fork point but lacks the consensus", because a fork copies the ledger rather than starting without one.
+the-last-scarce-good-v1.1.md | Section 4 | "knows it from the attack's own technical signature" | Should read "sees only that dormant coins moved, and cannot tell from the chain whether a key was computed or an owner returned", because the same paragraph says "a valid signature is a valid signature".
+the-last-scarce-good-v1.1.md | Section 4 | "The ability to double-spend and to reorganize recent blocks" | Should read "The ability to double-spend, to reorganize recent blocks, and to keep any chosen transaction out of the chain for as long as the majority lasts", because censorship is omitted and the yield is therefore more than "petty theft".
+the-last-scarce-good-v1.1.md | Section 3 | "computation buys security, never speed" | Should read "computation buys security and only a temporary speed-up, corrected every 2,016 blocks", because the essay's own anchor (block 960,856 on 3 August 2026) is roughly 36,000 blocks ahead of a ten-minute schedule.
+I withdraw the suggestion of an undisclosed interest, which I cannot show. I do not withdraw my other objections: they concern the arguments rather than the wording, so they fall outside this format.
