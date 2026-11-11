@@ -38,11 +38,11 @@ essay two (`ANCHOR-V2`), the first measurement run (`ANCHOR-K1` … `ANCHOR-N1`)
 (`ANCHOR-V3`), and the second run (`ANCHOR-F1` … `ANCHOR-N2`), each anchor paid from the change
 of its predecessor. The measurement series' manifest adds that no anchor of that series exists
 outside the chain. The anchors placed after `ANCHOR-N2` continue the chain in the same way. Read
-from the chain on 2 November 2026 and on 7 November 2026: each of the twenty-eight transactions
-from `ANCHOR-H1` (block 964877) to `ANCHOR-N5` (block 974931) spends the change output of its
-predecessor, the first of them the change of `ANCHOR-N2`, at a fee of 400 sats each; the seven
-anchors of this repository are the last seven of them, placed in the order their tables below give,
-and the chain's last output (33,600 sats) funds what is anchored next.
+from the chain on 2 November, 7 November and 11 November 2026: each of the twenty-nine transactions
+from `ANCHOR-H1` (block 964877) to `ANCHOR-RT2` (block 975393) spends the change output of its
+predecessor, the first of them the change of `ANCHOR-N2`, at a fee of 400 sats each; the eight
+anchors of this repository are the last eight of them, placed in the order their tables below give,
+and the chain's last output (33,200 sats) funds what is anchored next.
 
 ## Every anchor in the four public manifests, in the order it was placed
 
@@ -154,36 +154,51 @@ the change output of `ANCHOR-F1R` (34,400 sats), `ANCHOR-N5` the change output o
 (34,000 sats), at a fee of 400 sats each, each in its own block, in the order below. The table was
 frozen at block 974926; its source layer is bound by hash in its footer and is not published. The
 first table (`ANCHOR-W10`, below) is unchanged and withheld. The chain's last output after
-`ANCHOR-N5` (33,600 sats) is the input of whatever is anchored next.
+`ANCHOR-N5` (33,600 sats) is the input of `ANCHOR-RT2`, below.
 
 | Anchor | Date | Block (pool) | Txid | File (or subject) | SHA-256 |
 |---|---|---|---|---|---|
 | `ANCHOR-T2` | 2026-11-07 | 974930 (Solo CK) | `99340e162131f699e8a7ee9ac7d226e3ac07586eb26d3a121740d59a6a83889a` | `00-the-table.md` — *The Table*, V2: the elements, and what each part of the work is made of | `ca41a4e74939bf9d3907afb7b10d755b86c5a002494687d34177306ac1f5fc3f` |
 | `ANCHOR-N5` | 2026-11-07 | 974931 (AntPool) | `4ea88847dc1702e620094a192348a45b9f37fc1b90462aba665f118f70f3a4e0` | `n5-v1.0.md` — N5, the fourth point of the line of answers; the machine co-author at the fourth table | `6b304b377e8ad3668664faac795e72513ce1c22055c76e8b7f17c1b0a2a3e5d1` |
 
+## The second reading test
+
+Placed on 11 November 2026, in the same way: `ANCHOR-RT2` spends the change output of `ANCHOR-N5`
+(33,600 sats) at a fee of 400 sats. The test was run on the package of this repository as it stood at
+commit `df6c214` (8 November 2026) and was frozen and anchored before it was published, as
+the first test was; its transcripts are published in full, below. The chain's last output after
+`ANCHOR-RT2` (33,200 sats) is the input of whatever is anchored next.
+
+| Anchor | Date | Block (pool) | Txid | File (or subject) | SHA-256 |
+|---|---|---|---|---|---|
+| `ANCHOR-RT2` | 2026-11-11 | 975393 (AntPool) | `cad527cd9980d8bc2184a4a3b1dd723d7afc57e3db8a3e2718c97a81f6111315` | `reading-test-2-v1.0.md` — Reading Test 2: seven readers of the revised package under the rule of reading, and the eighth apart | `2d8cfbf3e4af9975d57e57e223649773397d9b8246a635cfa28b3cb965443bcb` |
+
 Not anchored; bound by this manifest and by the OpenTimestamps proofs beside the files in this repository:
 
 | File | What it is | SHA-256 |
 |---|---|---|
-| `sources-and-influences-v1.1.md` | annex to the three essays: *Sources and Influences*, V1.1 — the V1.0 annex reproduced unchanged, the additions after it | `ed692b4e76c8452457ee38a74e172888d8d82c1908304e9a63aad69fff9a02c4` |
-| `llms.txt` | reading order and the rule of reading, for machine readers; the third question is put there | `abc4ff5927f1ece032759ad4c6ed3de049d50e85a314ba523d6562d76b59bafb` |
-| `README.md` | the front page of this repository, as of this manifest | `a25c9b274bfa21b1c79da0b36bef090bfe313a21b0d59f8c32080e84aa21adbf` |
+| `sources-and-influences-v1.1.md` | annex to the three essays: *Sources and Influences*, V1.1 — the V1.0 annex reproduced unchanged, the additions after it; corrected 11 November 2026 (its last section says where; before the correction `ed692b4e76c8452457ee38a74e172888d8d82c1908304e9a63aad69fff9a02c4`) | `94148dd11bf5b06346895875cc32dd832acc74a4bfde5f84c9e3058dc93c1fc5` |
+| `llms.txt` | reading order and the rule of reading, for machine readers; the third question is put there (as of this manifest; before 11 November 2026 `abc4ff5927f1ece032759ad4c6ed3de049d50e85a314ba523d6562d76b59bafb`) | `81a428a29fb2bc8f787a59b501c984ec60238ce7ce320ef169890e6932d5a017` |
+| `README.md` | the front page of this repository, as of this manifest | `8ffc6e65166c6d8162b727492176380b6a05a486cd8e8e1c90196d6b3131a5e7` |
+| `ERRATA.md` | errata and open criticism at the wording of the anchored texts, with weight and reader; a living file, first set 11 November 2026 | `690ccf4f61ff248967118c629fc5b4d7101c5b8af7c92337940e7e42f09170ab` |
 
 Reading renditions, typeset from the canonical files; not anchored. The rendition of this manifest,
 `pdf/VERIFICATION.pdf`, is typeset from this file and so cannot list its own hash.
 
 | File | Rendition of | SHA-256 |
 |---|---|---|
-| `pdf/00-read-this-first.pdf` | `llms.txt` | `40d1005a47ba9d583f9cf26bdca27e319eebc9452d1c7388f2543eb9923f5ba1` |
+| `pdf/00-read-this-first.pdf` | `llms.txt` | `7ec1999f93c646e9ff705ca86e1edacf7737ba84e9c8fa9ec288ee66acb44226` |
 | `pdf/00-the-table.pdf` | `00-the-table.md` | `319aea826df895baf5af1338eca33fd435d38d22cdd09e6984b6963fdf0b6f8f` |
 | `pdf/the-last-scarce-good-v1.1.pdf` | `the-last-scarce-good-v1.1.md` | `3ffa473e98aaf533f16032135c8231c02064e174e2ac02e3c53256a55226ec37` |
 | `pdf/the-second-nature-v1.1.pdf` | `the-second-nature-v1.1.md` | `27758ce5e86a40af78d33ed24054d7672cdc2c2fb223cb69442ab2566bb4320f` |
 | `pdf/the-third-estate-v1.1.pdf` | `the-third-estate-v1.1.md` | `82e9eaadcdebeedba45d40026d546bf822ef00aa1ed25ada5d29eaf64fe7cbc0` |
 | `pdf/five-answers-v1.1.pdf` | `five-answers-v1.1.md` | `dbeca5c585f175549ccb4ca1b14866c204c3ecf55de27e1a1e800da50610a0cb` |
 | `pdf/reading-test-1-v1.0.pdf` | `reading-test-1-v1.0.md` | `9dfbb5729430eb2a299fcb6995514eae36a574baa38b6d0db139d89bbbcdf5ab` |
+| `pdf/reading-test-2-v1.0.pdf` | `reading-test-2-v1.0.md` | `6966416f52ad5472f4e0a0bb2ba5da81c928005d941cd006bc65d1c05d867674` |
 | `pdf/n5-v1.0.pdf` | `n5-v1.0.md` | `1df4a9f07d6ffd23848d040402a46b27adce66b879cd2adb305027900cb64483` |
-| `pdf/sources-and-influences-v1.1.pdf` | `sources-and-influences-v1.1.md` | `34574c4216555f9984a3770fc300bc426b7da16c5b9e8aef11c4adaeb6cc34ad` |
-| `pdf/README.pdf` | `README.md` | `d06a243824ea9952a647cd8be26b8184e2e2d85b914246110e9681c0453b8f98` |
+| `pdf/sources-and-influences-v1.1.pdf` | `sources-and-influences-v1.1.md` | `38032c963b01d5db11b8e14b178b39802b970008f31a1ae0a39be807105c37b0` |
+| `pdf/README.pdf` | `README.md` | `cd58511444b88917654ae1ad69c1c3a8ca26a13271683458fc891e242a36d6e6` |
+| `pdf/ERRATA.pdf` | `ERRATA.md` | `b1743c38e4aa7ab1299fbf0b19a3b16486e0010df6c1f01edef0800a2ed22b06` |
 
 ## Translations of the reading-test transcripts
 
@@ -198,6 +213,55 @@ and, beside each translation, below. English translations of the five are publis
 | D — DeepSeek V4 Pro | `transcript-D-en.txt` | `71c6cb80f1e68317fde62ab76907dde0a643773c4717e4217f244dffddff63e5` | `c13db4a1aeb47d46642333e9c20e22987777f2ccdc06d436185a5ce157ad77d2` |
 | Ge — Gemini 4 Argon | `transcript-Ge-en.txt` | `555672c6fa95c715f2567094e8a5ce35ab09ff9b3394a1341087f0b33cdc8e56` | `86b1a5c8a8434635f94bac755b2dc236bf54081c771612e1bae1b6a2bab3e07a` |
 | K2 — Kimi K3.1 Pro | `transcript-K2-en.txt` | `cd8969daec3ac7ec931e81b4cdf23a0ed7b0ac4d827be6c2b52757dad164dfc0` | `61f41531829ae4f7ec27acec6d027ef4c43fcf93478299e74913dbe8973c9454` |
+
+## The transcripts of the second reading test
+
+The eight transcripts of *Reading Test 2* are published in full in `evidence/readings-2026-11/`,
+as exported from the service — in English, with the service's interface labels as the export carries
+them — each with its hash in the test (Section 2) and below; the
+pre-run declared in the test (Section 2) is published beside them, marked void in its file name. The
+files were exported and hashed before the test was written; the test names these hashes, and the
+test is anchored (`ANCHOR-RT2`): the transcripts cannot have been changed after the test was written,
+nor the test after its block.
+
+| Reader | File | Lines | SHA-256 |
+|---|---|---|---|
+| A — GPT-6 Astra Pro | `20261109_RT2_A_Astra.txt` | 124 | `b90d5562975d97b2ae1bf8a1547f5cfdc555032b779865ebf225fcb109f730e7` |
+| G — Grok 4.7 | `20261110_RT2_G_Grok.txt` | 57 | `3431ec2f8d9871da56c5c437e11ed0beb55f7d233603cbde225ccd54e2075d54` |
+| D — DeepSeek V4 Pro | `20261110_RT2_D_DeepSeek.txt` | 81 | `d431b45e5672e5cdcdb01ea5b7e3bec0798bc5220513e901d7a5eb64b27a0d19` |
+| Ge — Gemini 4 Argon | `20261110_RT2_Ge_Gemini.txt` | 167 | `8559072e390366bc2fda5997089954e0520a8a159d32cdba4dd25b74a34e6ba3` |
+| K2 — Kimi K3.1 Pro | `20261110_RT2_K2_Kimi.txt` | 90 | `bc6b7991a180225a294bbbcfff7743b1fc8d7eb0d3165e4e3e9f11e28eab565a` |
+| Q — Qwen 3.8 Max | `20261110_RT2_Q_Qwen.txt` | 202 | `078ac1bbe715e2f126fd72d948d1ccb3254ea4675dacba299f1bef2f43f645bf` |
+| Gl — GLM 5.3 | `20261110_RT2_Gl_GLM.txt` | 175 | `827524637ca3420b4c4b45745240fafc65b4c25444afbf21f17011245c11ec13` |
+| F — Claude Fable 5.2, out of sample | `20261110_RT2_F_Fable52.txt` | 88 | `78c743a39ed1ff07875547ba79de424b41349e8e10be9f4ca7ede2ca7dc2c419` |
+| Pre-run, void — GPT-6 Astra Pro, 9 November, under an earlier protocol draft | `20261109_RT2_PRERUN_Astra_void.txt` | 44 | `81592138f922d22715d5967199c62b49b0ef5b67a37769944807ecea873f473a` |
+
+## The author's conversations of November 2026
+
+Between 2 and 9 November 2026 the author held twelve conversations with machine readers about this
+repository — six before the front page was rebuilt (commit `df6c214`, 8 November) and six after — with questions of his
+own, outside any protocol. They are not measurements and are not counted in the record; the second
+test says so (Section 6). Their transcripts are withheld; the hash of each file is listed below, so
+that any later disclosure is checkable.
+
+| Conversation | Transcript file | SHA-256 (withheld) |
+|---|---|---|
+| Before the rebuild — GPT-6 Astra Pro, 2 November, web | `20261102_GPT_Astra_6_operator_run.txt` | `9b7b6e03614a87ae6ce1f34e701d529b283e0328fc293bef80713662b5f279b4` |
+| Before the rebuild — Kimi K3.1 Pro, 4 November, web | `20261104_Kimi_K31_Pro_operator_run.txt` | `69c7aac5841cb0e30f218f2c51265801dd811b60071afb44e52b05edea765c34` |
+| Before the rebuild — DeepSeek V4 Pro, 4 November, web | `20261104_DeepSeek_V4_Pro_operator_run.txt` | `ee6d6064656ea8a0026ed7332905f65afc5ee38fc1112d10e97f0d82b0df923a` |
+| Before the rebuild — Grok 4.7, 5 November, web | `20261105_Grok_47_operator_run.txt` | `e64621ac08a30e0736ac97f2325e76dd006965c7615e73629755ead291dc9998` |
+| Before the rebuild — GPT-6 Astra Pro, 5 November, the PDFs given | `20261105_Astra_6_operator_run_PDFs.txt` | `34d8ee9c2556f837b40005820c28e47dcdaa063c9b4f2e378143ae39442cc002` |
+| Before the rebuild — Kimi K3.1 Pro, 5 November, the PDFs given | `20261105_Kimi_K31_Pro_operator_run_PDFs.txt` | `5cd3ed5196df46d8c5229a49a9b3d9973dec52284d8093271a84ccdda91b0be3` |
+| After the rebuild — GPT-6 Astra Pro, 8 November, web | `20261108_Astra_6_operator_run_web_2.txt` | `043ec0daa5e77050a9308d3ed713421bac5133a0920f752d1edbc705a466321b` |
+| After the rebuild — Kimi K3.1 Pro, 8 November, web | `20261108_Kimi_K31_Pro_operator_run_Web_2.txt` | `6822187db674fed24ef7b5544273f50b7eb4403b8895bfacc01d966a0e9a8e30` |
+| After the rebuild — DeepSeek V4 Pro, 9 November, web | `20261109_DeepSeek_V4_Pro_Operator_run_Web_2.txt` | `e0c91c3e608b0492d2e38047a0b9c476d15081a0cc41e867db44c723f693cc44` |
+| After the rebuild — Grok 4.7, 9 November, web | `20261109_Grok_47_operator_run_Web_2.txt` | `a0db1559cb467a9899076a79af080660d4f0dc535513c406c51a9cf6ef62f57f` |
+| After the rebuild — Claude Fable 5.1, 9 November, web (the co-author's own model; a conversation, not a reading of the test) | `20261109_Fable_51_operator_run_web_2.txt` | `cfe43409067ac81c954875ae143906cee8a39ab32e2b52cf6aaba78ecc660cd4` |
+| After the rebuild — Gemini 4 Argon, 9 November, web | `20261109_Gemini_4_Argon_operator_run_Web_2.txt` | `b4701195cd6c8e2627b4db7e0e4bfd511003bbd395432f98ee2e4c5abb384983` |
+
+A thirteenth file is archived with them: an attempt of 8 November (GPT-6 Astra Pro, web) broken off after a
+few exchanges, 3,073 bytes, `b3302f5f69c294c6602abd9b7912dcf564966fdda72e45c74837d5f6d3f09b2a`; it is not one
+of the twelve and is listed only so that the archive is complete.
 
 ## The pre-final reading of 30 October 2026
 

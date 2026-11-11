@@ -64,7 +64,7 @@ Two consequences of drawing the line there. First, the list is finite and checka
 Some frames are not borrowed but were built in the dialogue and are recorded here so the line is honest:
 
 - The **two-ladder thesis** (energy ladder × information ladder, coupled once by proof of work) — the author's, developed in the lab dialogue.
-- **Existence by precedence** and **ownership as self-identification under scarcity** — the author's resolution of the security-budget and identity questions.
+- **Existence by precedence** and **ownership as self-identification under scarcity** — the author's answer to the security-budget and identity questions, with its limit (P4).
 - The **barometer / voluntary mortality** instrument (commit-then-reveal inventory + channel declaration, cadenced in block time), with the **Cold War arms-control regime** (SALT/START/INF; "verify without trust," minus the inspector at Votkinsk) as its acknowledged precedent.
 - The **Bicentennial Man** legal-subject question (recognition following mortality) — used as an *idea*, deliberately un-named in the essay text, recorded here as an influence.
 - **Alan Turing** (the machine co-author's nod) and the **"Lucy" / deep-ancestor** image (the human author's), reserved for the closing personal note.
@@ -121,7 +121,11 @@ Each is committed by hash without disclosure — the same commit-then-reveal the
 
 - Geoffrey Hinton, keynote, Ai4 2025, Las Vegas, 12 August 2025, as reported by CNN, cnn.com, 13 August 2025, https://cnn.com/2025/08/13/tech/ai-geoffrey-hinton — the "maternal instinct" proposal. Reserved for a later version; not cited in the V1.1 text. Primary recording not located; secondary report only.
 - A reply to Pachocki attributed to Max Tegmark, 6 September 2026: no primary source was found on 27 October 2026; the V1.1 text does not rely on it (struck from Essay 3, Part V, in Draft 3).
-- Podcast statements attributed to Roman Yampolskiy (the "only rare good in the universe"; the untouched coins as a quantum canary): no primary source was found on 27 October 2026; the V1.1 text does not rely on them. His general position stands in the V1.0 annex above, section V, as it did.
+- Podcast statements attributed to Roman Yampolskiy (the "only rare good in the universe"; the untouched coins as a quantum canary): on 27 October 2026 no primary source had been found. On 9 November 2026 the primary source of the first was found: *The Diary Of A CEO* (Steven Bartlett), episode with Roman Yampolskiy, 2025, at 1:12 of the published transcript — "It's the only scarce resource. Nothing else has scarcity. You cannot make more Bitcoin." — and, at 0:30, "Turn off Bitcoin network." The wording "only rare good in the universe" is a paraphrase, not his. For the second statement, the quantum canary, no primary source has been found. The V1.1 text relies on neither. His general position stands in the V1.0 annex above, section V, as it did.
+
+## Corrections to this annex
+
+- 11 November 2026, with the second reading test: section VI, "the author's resolution of the security-budget and identity questions" corrected to "the author's answer …, with its limit (P4)" — an annex written in August cannot call resolved what the October corrections to the essays left open, as a machine reader of the published package pointed out (Claude Fable 5.1, 9 November 2026, in one of the author's conversations outside the record); and the Yampolskiy entry above updated with the primary source found. This annex is not anchored; its hash before and after the correction stands in `VERIFICATION.md`.
 
 ---
 

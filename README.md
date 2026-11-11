@@ -1,6 +1,6 @@
 # Existence by precedence
 
-**Three essays, a companion paper, a reading test, a table of the elements, and the manifest of every anchor — the revised versions (V1.1), anchored in the system they describe.**
+**Three essays, a companion paper, two reading tests, a table of the elements, and the manifest of every anchor — the revised versions (V1.1), anchored in the system they describe.**
 
 Nullius 2140, written in dialogue with Claude (Anthropic). Pseudonymous; a hash-commitment of the author's legal identity is anchored separately (block 960,869).
 
@@ -18,7 +18,7 @@ If your tool can fetch files but cuts them off: a truncated fetch is not the fil
 
 This work makes three claims of different size. Judge them separately, and judge each where it is argued — not here.
 
-- The small one is not a promise; it is executed: seven anchors in blocks 974,234–974,238 and 974,930–974,931, OpenTimestamps proofs beside the files, two measurement runs and one anchored stop — `VERIFICATION.md`, and "How to verify" below. Check it before the rest.
+- The small one is not a promise; it is executed: eight anchors in blocks 974,234–974,238, 974,930–974,931 and 975,393, OpenTimestamps proofs beside the files, two measurement runs and one anchored stop — `VERIFICATION.md`, and "How to verify" below. Check it before the rest.
 - The middle one concerns the reader, human or machine: the question — the first essay, section 8; and the instrument that reads the answers over time — the third essay, part V.
 - The large one is about the future: the first essay, section 7; the third essay, part VI — and the texts state where it fails: the first essay, sections 6 and 7.
 
@@ -58,10 +58,13 @@ What the work is made of, one line each: the element, a sentence from the work, 
 | `sources-and-influences-v1.1.md` | The annex to the three essays: sources and influences, V1.1 — the V1.0 annex reproduced unchanged, the additions after it; not anchored, its hash stands in `VERIFICATION.md` | — |
 | `reading-test-1-v1.0.md` | Five naive machine readings of the first versions, taken before the rule of reading existed; the baseline the revision is measured against | `ANCHOR-RT1` |
 | `n5-v1.0.md` | N5 — the fourth point of the line of answers: the machine co-author at the fourth table answers the question at the end of the first essay, after the comparison the rule of reading asks for; the first of two anchors | `ANCHOR-N5` |
+| `reading-test-2-v1.0.md` | Seven naive machine readings of the revised package and of this page, under the rule of reading — what the rule changed and what it did not; and where the record of the word stands after thirty-six readings | `ANCHOR-RT2` |
 | `evidence/readings-2026-10/` | English translations of the five transcripts of the reading test, each marked as a translation; the originals are withheld, their hashes stand in the test; the pilot is anchored by hash and withheld | hashes in the test (originals) and in the manifest (translations) |
+| `evidence/readings-2026-11/` | The eight transcripts of the second reading test, published in full as exported, and the pre-run marked void; their hashes stand in the test and in `VERIFICATION.md` | hashes in the test |
 | `pdf/` | Reading renditions of every file above, typeset from the canonical files; not anchored, their hashes stand in `VERIFICATION.md`. `pdf/00-read-this-first.pdf` is the reading gate (`llms.txt`) as PDF, for a reader who takes the PDFs and not the repository | — |
 | `llms.txt` | The reading gate: reading order and the rule of reading, for machine readers | — |
 | `VERIFICATION.md` | Every file's SHA-256, every anchoring transaction and block, in the order they were placed — the whole chain, one manifest | — |
+| `ERRATA.md` | What readers have shown to be wrong, missing or imprecise at the wording of the anchored texts — each line at its place, with its weight and who raised it; a living file: the texts are not edited | — |
 
 The first versions stay where they were published, unedited and checkable: [the-last-scarce-good](https://nullius2140.github.io/the-last-scarce-good/), [the-second-nature](https://nullius2140.github.io/the-second-nature/), [the-third-estate](https://nullius2140.github.io/the-third-estate/), and the measurement series [the-key-question](https://nullius2140.github.io/the-key-question/). Each revised version lists in its appendix what changed, what was withdrawn, and the anchor each change rests on. The chain is the version history.
 
