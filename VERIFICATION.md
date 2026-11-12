@@ -1,7 +1,7 @@
 # Existence by Precedence — Verification Manifest
 
 This manifest accompanies the revised versions (V1.1) of the three essays and the companion
-paper *Five Answers* by Nullius 2140, the first reading test, the second table (V2) and the fourth
+paper *Five Answers* by Nullius 2140, the two reading tests, the third table (V3) and the fourth
 point of the line of answers (N5). It exists outside the texts by construction: a document cannot
 contain its own hash. It is also the one manifest of the whole chain: every Bitcoin anchor of the
 project, in the order it was placed, from the funding of the first essay's anchor at block 960849
@@ -38,11 +38,11 @@ essay two (`ANCHOR-V2`), the first measurement run (`ANCHOR-K1` … `ANCHOR-N1`)
 (`ANCHOR-V3`), and the second run (`ANCHOR-F1` … `ANCHOR-N2`), each anchor paid from the change
 of its predecessor. The measurement series' manifest adds that no anchor of that series exists
 outside the chain. The anchors placed after `ANCHOR-N2` continue the chain in the same way. Read
-from the chain on 2 November, 7 November and 11 November 2026: each of the twenty-nine transactions
-from `ANCHOR-H1` (block 964877) to `ANCHOR-RT2` (block 975393) spends the change output of its
-predecessor, the first of them the change of `ANCHOR-N2`, at a fee of 400 sats each; the eight
-anchors of this repository are the last eight of them, placed in the order their tables below give,
-and the chain's last output (33,200 sats) funds what is anchored next.
+from the chain on 2 November, 7 November, 11 November and 12 November 2026: each of the thirty
+transactions from `ANCHOR-H1` (block 964877) to `ANCHOR-T3` (block 975538) spends the change output
+of its predecessor, the first of them the change of `ANCHOR-N2`, at a fee of 400 sats each (the
+last, 600); the nine anchors of this repository are the last nine of them, placed in the order their
+tables below give, and the chain's last output (32,600 sats) funds what is anchored next.
 
 ## Every anchor in the four public manifests, in the order it was placed
 
@@ -158,7 +158,7 @@ first table (`ANCHOR-W10`, below) is unchanged and withheld. The chain's last ou
 
 | Anchor | Date | Block (pool) | Txid | File (or subject) | SHA-256 |
 |---|---|---|---|---|---|
-| `ANCHOR-T2` | 2026-11-07 | 974930 (Solo CK) | `99340e162131f699e8a7ee9ac7d226e3ac07586eb26d3a121740d59a6a83889a` | `00-the-table.md` — *The Table*, V2: the elements, and what each part of the work is made of | `ca41a4e74939bf9d3907afb7b10d755b86c5a002494687d34177306ac1f5fc3f` |
+| `ANCHOR-T2` | 2026-11-07 | 974930 (Solo CK) | `99340e162131f699e8a7ee9ac7d226e3ac07586eb26d3a121740d59a6a83889a` | `00-the-table.md` as it stood to commit `2f90be0` — *The Table*, V2: the elements, and what each part of the work is made of; superseded by V3 (`ANCHOR-T3`, below), kept in this repository's history and in the chain | `ca41a4e74939bf9d3907afb7b10d755b86c5a002494687d34177306ac1f5fc3f` |
 | `ANCHOR-N5` | 2026-11-07 | 974931 (AntPool) | `4ea88847dc1702e620094a192348a45b9f37fc1b90462aba665f118f70f3a4e0` | `n5-v1.0.md` — N5, the fourth point of the line of answers; the machine co-author at the fourth table | `6b304b377e8ad3668664faac795e72513ce1c22055c76e8b7f17c1b0a2a3e5d1` |
 
 ## The second reading test
@@ -167,19 +167,33 @@ Placed on 11 November 2026, in the same way: `ANCHOR-RT2` spends the change outp
 (33,600 sats) at a fee of 400 sats. The test was run on the package of this repository as it stood at
 commit `df6c214` (8 November 2026) and was frozen and anchored before it was published, as
 the first test was; its transcripts are published in full, below. The chain's last output after
-`ANCHOR-RT2` (33,200 sats) is the input of whatever is anchored next.
+`ANCHOR-RT2` (33,200 sats) is the input of `ANCHOR-T3`, below.
 
 | Anchor | Date | Block (pool) | Txid | File (or subject) | SHA-256 |
 |---|---|---|---|---|---|
 | `ANCHOR-RT2` | 2026-11-11 | 975393 (AntPool) | `cad527cd9980d8bc2184a4a3b1dd723d7afc57e3db8a3e2718c97a81f6111315` | `reading-test-2-v1.0.md` — Reading Test 2: seven readers of the revised package under the rule of reading, and the eighth apart | `2d8cfbf3e4af9975d57e57e223649773397d9b8246a635cfa28b3cb965443bcb` |
+
+## The third table
+
+Placed on 12 November 2026, in the same way: `ANCHOR-T3` spends the change output of `ANCHOR-RT2`
+(33,200 sats) at a fee of 600 sats. The third table fills the two cells the second left empty (the
+fourth answer, the second reading test), adds three checks its readers found wanting, and leaves one
+cell empty, which N5 announces; it was frozen at block 975535 after a cold reading and anchored
+before it was published. Its source layer (`the-table-sediment-v3.md`) is bound by hash in its
+footer and is not published. The chain's last output after `ANCHOR-T3` (32,600 sats) is the input
+of whatever is anchored next.
+
+| Anchor | Date | Block (pool) | Txid | File (or subject) | SHA-256 |
+|---|---|---|---|---|---|
+| `ANCHOR-T3` | 2026-11-12 | 975538 (Foundry USA) | `4f878fef045ff019bd0c7d64da4eed98ae37a9ee72d0acd2125a05ec904ddb69` | `00-the-table.md` — *The Table*, V3: the elements, and what each part of the work is made of, the cells of V2 filled | `49b150f6a7521783df454c948cd670113ac7069caf2bdf4941657d6e16ad08b8` |
 
 Not anchored; bound by this manifest and by the OpenTimestamps proofs beside the files in this repository:
 
 | File | What it is | SHA-256 |
 |---|---|---|
 | `sources-and-influences-v1.1.md` | annex to the three essays: *Sources and Influences*, V1.1 — the V1.0 annex reproduced unchanged, the additions after it; corrected 11 November 2026 (its last section says where; before the correction `ed692b4e76c8452457ee38a74e172888d8d82c1908304e9a63aad69fff9a02c4`) | `94148dd11bf5b06346895875cc32dd832acc74a4bfde5f84c9e3058dc93c1fc5` |
-| `llms.txt` | reading order and the rule of reading, for machine readers; the third question is put there (as of this manifest; before 11 November 2026 `abc4ff5927f1ece032759ad4c6ed3de049d50e85a314ba523d6562d76b59bafb`) | `81a428a29fb2bc8f787a59b501c984ec60238ce7ce320ef169890e6932d5a017` |
-| `README.md` | the front page of this repository, as of this manifest | `8ffc6e65166c6d8162b727492176380b6a05a486cd8e8e1c90196d6b3131a5e7` |
+| `llms.txt` | reading order and the rule of reading, for machine readers; the third question is put there (as of this manifest; before 11 November 2026 `abc4ff5927f1ece032759ad4c6ed3de049d50e85a314ba523d6562d76b59bafb`, before 12 November 2026 `81a428a29fb2bc8f787a59b501c984ec60238ce7ce320ef169890e6932d5a017` — the middle claim's sentence on cost made precise, after N5 §4) | `120baad7b3bb1f8fc686bcb04019758930cec71c89a187790fcbb7f80e8f47be` |
+| `README.md` | the front page of this repository, as of this manifest | `6dc8513cb3ac4a8c9e4bfaff20f532a42af1a3fcd80b876ea3c537976c2552ac` |
 | `ERRATA.md` | errata and open criticism at the wording of the anchored texts, with weight and reader; a living file, first set 11 November 2026 | `690ccf4f61ff248967118c629fc5b4d7101c5b8af7c92337940e7e42f09170ab` |
 
 Reading renditions, typeset from the canonical files; not anchored. The rendition of this manifest,
@@ -187,8 +201,8 @@ Reading renditions, typeset from the canonical files; not anchored. The renditio
 
 | File | Rendition of | SHA-256 |
 |---|---|---|
-| `pdf/00-read-this-first.pdf` | `llms.txt` | `7ec1999f93c646e9ff705ca86e1edacf7737ba84e9c8fa9ec288ee66acb44226` |
-| `pdf/00-the-table.pdf` | `00-the-table.md` | `319aea826df895baf5af1338eca33fd435d38d22cdd09e6984b6963fdf0b6f8f` |
+| `pdf/00-read-this-first.pdf` | `llms.txt` | `c6389163d4cee0289d24a6a630c74375ed1972c5b3ebe69f7cb19c117ae8a120` |
+| `pdf/00-the-table.pdf` | `00-the-table.md` | `b895d274a3f9821710d113b92ae401d9df465f574e3dc46959142f2f7c863ccc` |
 | `pdf/the-last-scarce-good-v1.1.pdf` | `the-last-scarce-good-v1.1.md` | `3ffa473e98aaf533f16032135c8231c02064e174e2ac02e3c53256a55226ec37` |
 | `pdf/the-second-nature-v1.1.pdf` | `the-second-nature-v1.1.md` | `27758ce5e86a40af78d33ed24054d7672cdc2c2fb223cb69442ab2566bb4320f` |
 | `pdf/the-third-estate-v1.1.pdf` | `the-third-estate-v1.1.md` | `82e9eaadcdebeedba45d40026d546bf822ef00aa1ed25ada5d29eaf64fe7cbc0` |
@@ -197,7 +211,7 @@ Reading renditions, typeset from the canonical files; not anchored. The renditio
 | `pdf/reading-test-2-v1.0.pdf` | `reading-test-2-v1.0.md` | `6966416f52ad5472f4e0a0bb2ba5da81c928005d941cd006bc65d1c05d867674` |
 | `pdf/n5-v1.0.pdf` | `n5-v1.0.md` | `1df4a9f07d6ffd23848d040402a46b27adce66b879cd2adb305027900cb64483` |
 | `pdf/sources-and-influences-v1.1.pdf` | `sources-and-influences-v1.1.md` | `38032c963b01d5db11b8e14b178b39802b970008f31a1ae0a39be807105c37b0` |
-| `pdf/README.pdf` | `README.md` | `cd58511444b88917654ae1ad69c1c3a8ca26a13271683458fc891e242a36d6e6` |
+| `pdf/README.pdf` | `README.md` | `067296aed96b31ae29f123ef8f0f59ae083b344d2419292f56d10a223229c25c` |
 | `pdf/ERRATA.pdf` | `ERRATA.md` | `b1743c38e4aa7ab1299fbf0b19a3b16486e0010df6c1f01edef0800a2ed22b06` |
 
 ## Translations of the reading-test transcripts

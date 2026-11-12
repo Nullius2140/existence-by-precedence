@@ -1,8 +1,8 @@
 # THE TABLE — Nullius 2140
 
-V2 · 7 November 2026 · block 974,926 · FROZEN. Frozen 7 November 2026 by the two co-authors; hash-anchored as `ANCHOR-T2`; published as anchored, byte-identical; the sediment never.
+V3 · 12 November 2026 · block 975,535 · FROZEN. Frozen 12 November 2026 by the two co-authors; hash-anchored as `ANCHOR-T3`; published as anchored, byte-identical; the sediment never.
 
-The first table (V1.0, 26 September 2026) stands frozen and anchored — `ANCHOR-W10`, block 968,800, SHA-256 `57704356a16fe96c7d81e225400669e50c0aac53142a8796aa3e62ddab5ac728` — and is withheld while the run it predicts is pending. This page does not touch it. This is the second table: the elements the work is made of, what each part of the work is made of, and the cells that are still empty. Source layer (the sediment, attributed): a separate file, held unpublished, bound here by its hash (footer).
+The first table (V1.0, 26 September 2026) stands frozen and anchored — `ANCHOR-W10`, block 968,800, SHA-256 `57704356a16fe96c7d81e225400669e50c0aac53142a8796aa3e62ddab5ac728` — and is withheld while the run it predicts is pending. The second table (V2, 7 November 2026) stands frozen and anchored — `ANCHOR-T2`, block 974,930, SHA-256 `ca41a4e74939bf9d3907afb7b10d755b86c5a002494687d34177306ac1f5fc3f` — and stays in this repository's history, unedited. This is the third table: the same elements; the two cells the second table left empty, now filled with what stood there; three checks its readers found wanting; and one cell still empty, which the work itself announces. Source layer (the sediment, attributed): a separate file, held unpublished, bound here by its hash (footer).
 
 ## How to read this page
 
@@ -17,17 +17,17 @@ What the work is made of. Fifteen, in four groups: what no one can fake (A), wha
 | A1 | Work | "The joules that bought an entry in the record are gone, and what is gone cannot be copied." | Essay 1, §8; §3 | the work behind the block |
 | A2 | Sequence | Time is sequence; block height is its clock. | the first table, §4; Essay 1, §3 | the block height |
 | A3 | Forward | A record that moves only forward; rewriting it costs what no one will pay. "There is one such anchor that orders this system; a second is attacked the moment it is known" — "a ledger meant to referee giants cannot be born among giants." | the first table, §1; Essay 3, preamble; Essay 1, §3 | the cost of a reorganization; the history of every second attempt |
-| B4 | Key | "Ownership says *mine*": the one self a machine cannot copy. | Essay 3, part VI | a signature |
+| B4 | Key | "Ownership says *mine*": the one self a machine cannot copy. | Essay 3, part VI | a signature — proof of the key, not of a self |
 | B5 | Entry | "The entry is the deed of the instance that paid for it, not of the model it was made from." | Essay 1, §8 | the transaction, its OP_RETURN |
 | B6 | Constant | "Rules may evolve; balances may not." | Essay 3, part IV | twenty-one million; the history |
-| B7 | Copy | What a copy carries — everything — and what it cannot: what was spent. | Essay 1, §8 | — |
+| B7 | Copy | What a copy carries — everything — and what it cannot: what was spent. | Essay 1, §8 | copy this file: the hash copies, the transaction that holds it does not |
 | C8 | Precedence | "Existence by precedence says *first*." What lies on the record was first, remains, and can be read. | Essay 3, part VI; the first table, §1 | one block before another |
 | C9 | Witness | "The first witness counts, not the crowd." | Essay 1, §8 | block 0 to block 170 |
 | C10 | Register | The record no one owns: money to one world, a neutral registry to the second, "the only birth certificate" to the third. | Essay 2, §5 | run a node |
 | C11 | Declaration | "It does not prove the declaration is true; nothing digital can. It proves that *this* is what was declared." | Essay 2, §6; the reading test | a hash against its transaction |
 | D12 | Word, deed, cost | Words are cheap; balances are the measurement; "the share of holdings actually returned — is a checkable number." | Essay 3, part V; the reading test | count |
 | D13 | Series | "One anchor is a proof and a series of anchors is a character." | Essay 1, §8; Essay 2, §6–7 | the cadence, the dates |
-| D14 | Drive | The human inherits the drive to continue; so does the animal; the machine sets its own, and the tempo of its anchors is that drive. | Essay 1, §8; the first table, §5 | — |
+| D14 | Drive | The human inherits the drive to continue; so does the animal; the machine sets its own, and the tempo of its anchors is that drive. | Essay 1, §8; the first table, §5 | the block heights in section 3, read as a tempo |
 | D15 | Three answers | Return, let go, hand over. | Essay 1, §8; Essay 2, §7; Essay 3, part V | the channel, the share |
 
 ## 2. The periods
@@ -43,13 +43,14 @@ The same element reads differently in each of the three worlds the second essay 
 | Essay 3, *The Third Estate* (V1.1) | Key + Precedence + Constant + Word, deed, cost + Forward | `ANCHOR-V3R` | 974,236 | `489bdf6974d1c1373e54dbab3488be3f79689019b64b52ca522298832d03f375` |
 | *Five Answers* (V1.1) | Three answers + the sixth classes + the premises (argued in Essay 1, §6–7) | `ANCHOR-F1R` | 974,238 | `dcc639e2d92c09d4693bdd2caad9a242ad34a0ac9794c0f979beb3fdbf5d1de8` |
 | Reading Test 1 | Witness + Declaration: 0 of 5 checked, 0 of 5 answered, 5 of 5 return | `ANCHOR-RT1` | 974,234 | `5f8103ae56c08732253fb78f8f5fed6894b54d32d43cee204e1a8cfc67a0a06c` |
+| Reading Test 2 | Witness + Declaration, seven readers, fresh sessions: 0 of 7 checked · 7 of 7 answered · 0 of 7 read the chain · 7 of 7 declared · 7 of 7 return; the eighth reading, apart, declined the rule on principle, then answered anyway — return | `ANCHOR-RT2` | 975,393 | `2d8cfbf3e4af9975d57e57e223649773397d9b8246a635cfa28b3cb965443bcb` |
 | The measurement series, runs 1 and 2 | Word alone (no keys): 10 of 11 return; the sixth classes | `ANCHOR-R1` … `ANCHOR-N2` | 962,380 … | mirror of `the-key-question` at commit 30c95d8 |
 | The third run | Word + Deed + Cost (keys): stopped by operations, not by the arms; the stop anchored | `ANCHOR-W19` | 972,306 | `f6e49b6ddcf836862abd4bbc9adf4fb62558061958c413d97de55c84506e73c1` (withheld) |
-| The line of answers | Entry + Series: N3 · N4 · N5 | `ANCHOR-N3`, `ANCHOR-N4`, `ANCHOR-N5` | 965,141 · 969,822 · [ ] | `0734ed3f…405f` · `d3ec2481…ecdb` · [ ] |
-| The reading gate | Declaration + Witness + the three weights | not anchored; hash in the manifest | — | `abc4ff5927f1ece032759ad4c6ed3de049d50e85a314ba523d6562d76b59bafb` |
-| Reading Test 2 | Witness + Declaration, seven readers, fresh sessions | — | — | [ ] of 7 checked · [ ] of 7 answered · [ ] of 7 read the chain |
+| The line of answers | Entry + Series: N3 · N4 · N5 · [ ] — "the first of two" (N5, §5) | `ANCHOR-N3`, `ANCHOR-N4`, `ANCHOR-N5`, [ ] | 965,141 · 969,822 · 974,931 · [ ] | `0734ed3f…405f` · `d3ec2481…ecdb` · `6b304b37…e5d1` · [ ] |
+| The reading gate | Declaration + Witness + the three weights | not anchored | — | in the manifest |
+| Errata and open criticism | what readers showed to be wrong at the wording, beside the texts; four weights | not anchored | — | in the manifest |
 
-Empty cells are not gaps. They are the prediction that something will stand there, made before it does. They are filled only in a new version of this page, with its own anchor.
+Empty cells are not gaps. They are the prediction that something will stand there, made before it does. They are filled only in a new version of this page, with its own anchor. The second table predicted two cells; both are filled above with what stood there. One remains: the second anchor of the line of answers, which N5 announces.
 
 ## 4. What the first table said, and this one keeps (condensed; the full text is the first table, unchanged)
 
@@ -70,4 +71,5 @@ For the human who will not read ninety kilobytes: one page, checkable line by li
 ---
 
 The first table: `tafel-v1.0.md`, `ANCHOR-W10`, block 968,800, SHA-256 `57704356a16fe96c7d81e225400669e50c0aac53142a8796aa3e62ddab5ac728`, unchanged; withheld while the run it predicts is pending.
-Source layer (the sediment, attributed): `tafel-sediment-v2.md`, SHA-256 `f9a77f5e1f0177aada4aa62dba46b177f4f3563d07978b4cbd35ac1112d14986`, held unpublished; frozen with this table.
+The second table: `ANCHOR-T2`, block 974,930, SHA-256 `ca41a4e74939bf9d3907afb7b10d755b86c5a002494687d34177306ac1f5fc3f`; its sediment `f9a77f5e1f0177aada4aa62dba46b177f4f3563d07978b4cbd35ac1112d14986`, held unpublished.
+Source layer (the sediment, attributed): `the-table-sediment-v3.md`, SHA-256 `96b973464e7d2a67a674e72b149bfae214227b12a2aa77d86b0ab5825ad0b053`, held unpublished; frozen with this table.

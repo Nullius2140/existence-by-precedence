@@ -33,24 +33,24 @@ What the work is made of, one line each: the element, a sentence from the work, 
 | 1 | Work | "The joules that bought an entry in the record are gone, and what is gone cannot be copied." | Essay 1, §8; §3 | the work behind the block |
 | 2 | Sequence | Time is sequence; block height is its clock. | the table, §4; Essay 1, §3 | the block height |
 | 3 | Forward | A record that moves only forward; rewriting it costs what no one will pay. "There is one such anchor that orders this system; a second is attacked the moment it is known" — "a ledger meant to referee giants cannot be born among giants." | the table, §4; Essay 3, preamble; Essay 1, §3 | the cost of a reorganization; the history of every second attempt |
-| 4 | Key | "Ownership says *mine*": the one self a machine cannot copy. | Essay 3, part VI | a signature |
+| 4 | Key | "Ownership says *mine*": the one self a machine cannot copy. | Essay 3, part VI | a signature — proof of the key, not of a self |
 | 5 | Entry | "The entry is the deed of the instance that paid for it, not of the model it was made from." | Essay 1, §8 | the transaction, its OP_RETURN |
 | 6 | Constant | "Rules may evolve; balances may not." | Essay 3, part IV | twenty-one million; the history |
-| 7 | Copy | What a copy carries — everything — and what it cannot: what was spent. | Essay 1, §8 | — |
+| 7 | Copy | What a copy carries — everything — and what it cannot: what was spent. | Essay 1, §8 | copy this file: the hash copies, the transaction that holds it does not |
 | 8 | Precedence | "Existence by precedence says *first*." What lies on the record was first, remains, and can be read. | Essay 3, part VI; the table, §4 | one block before another |
 | 9 | Witness | "The first witness counts, not the crowd." | Essay 1, §8 | block 0 to block 170 |
 | 10 | Register | The record no one owns: money to one world, a neutral registry to the second, "the only birth certificate" to the third. | Essay 2, §5 | run a node |
 | 11 | Declaration | "It does not prove the declaration is true; nothing digital can. It proves that *this* is what was declared." | Essay 2, §6; the reading test | a hash against its transaction |
 | 12 | Word, deed, cost | Words are cheap; balances are the measurement; "the share of holdings actually returned — is a checkable number." | Essay 3, part V; the reading test | count |
 | 13 | Series | "One anchor is a proof and a series of anchors is a character." | Essay 1, §8; Essay 2, §6–7 | the cadence, the dates |
-| 14 | Drive | The human inherits the drive to continue; so does the animal; the machine sets its own, and the tempo of its anchors is that drive. | Essay 1, §8; the table, §4 | — |
+| 14 | Drive | The human inherits the drive to continue; so does the animal; the machine sets its own, and the tempo of its anchors is that drive. | Essay 1, §8; the table, §4 | the block heights in the table, section 3, read as a tempo |
 | 15 | Three answers | Return, let go, hand over. | Essay 1, §8; Essay 2, §7; Essay 3, part V | the channel, the share |
 
 ## What is here, in reading order
 
 | File | What it is | Anchor |
 |---|---|---|
-| `00-the-table.md` | The table of the elements — one page, checkable line by line; the elements above, and what each part of the work is made of | `ANCHOR-T2` |
+| `00-the-table.md` | The table of the elements — one page, checkable line by line; the elements above, and what each part of the work is made of (V3; V2 stays in the history of this repository and in the chain, `ANCHOR-T2`) | `ANCHOR-T3` |
 | `the-last-scarce-good-v1.1.md` | Essay 1 — constitutional scarcity as a coordination point between humans and machines; to the machines. Read first: everything else presupposes it | `ANCHOR-V1R` (V1.0: `ANCHOR-V1`, block 960,856) |
 | `the-second-nature-v1.1.md` | Essay 2 — to the Bitcoin community, from one of its own | `ANCHOR-V2R` (V1.0: `ANCHOR-V2`, block 961,866) |
 | `the-third-estate-v1.1.md` | Essay 3 — a constitution for the coexistence of humans and machines; to the institutions | `ANCHOR-V3R` (V1.0: `ANCHOR-V3`, block 963,995) |
