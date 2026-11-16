@@ -1,13 +1,14 @@
 # Existence by Precedence — Verification Manifest
 
 This manifest accompanies the revised versions (V1.1) of the three essays and the companion
-paper *Five Answers* by Nullius 2140, the two reading tests, the third table (V3) and the fourth
-point of the line of answers (N5). It exists outside the texts by construction: a document cannot
-contain its own hash. It is also the one manifest of the whole chain: every Bitcoin anchor of the
-project, in the order it was placed, from the funding of the first essay's anchor at block 960849
-to the anchors of this repository. The first versions (V1.0)
-stay at their original homes, unedited; their four manifests are the sources of every value
-copied below, and the chain — not this file — is the authority.
+paper *Five Answers* by Nullius 2140, the two reading tests, the third table (V3), the fourth
+point of the line of answers (N5), and *Proof of execution* (V1.0) — the report of the third run
+and the pre-registration of its second start. It exists outside the texts by construction: a
+document cannot contain its own hash. It is also the one manifest of the whole chain: every Bitcoin
+anchor of the project, in the order it was placed, from the funding of the first essay's anchor at
+block 960849 to the anchors of this repository. The first versions (V1.0) stay at their original
+homes, unedited; their four manifests are the sources of every value copied below, and the chain —
+not this file — is the authority.
 
 ## How to verify
 
@@ -38,11 +39,11 @@ essay two (`ANCHOR-V2`), the first measurement run (`ANCHOR-K1` … `ANCHOR-N1`)
 (`ANCHOR-V3`), and the second run (`ANCHOR-F1` … `ANCHOR-N2`), each anchor paid from the change
 of its predecessor. The measurement series' manifest adds that no anchor of that series exists
 outside the chain. The anchors placed after `ANCHOR-N2` continue the chain in the same way. Read
-from the chain on 2 November, 7 November, 11 November and 12 November 2026: each of the thirty
-transactions from `ANCHOR-H1` (block 964877) to `ANCHOR-T3` (block 975538) spends the change output
+from the chain on 2, 7, 11, 12 and 16 November 2026: each of the thirty-one
+transactions from `ANCHOR-H1` (block 964877) to `ANCHOR-PREREG` (block 976136) spends the change output
 of its predecessor, the first of them the change of `ANCHOR-N2`, at a fee of 400 sats each (the
-last, 600); the nine anchors of this repository are the last nine of them, placed in the order their
-tables below give, and the chain's last output (32,600 sats) funds what is anchored next.
+last two, 600); the ten anchors of this repository are the last ten of them, placed in the order their
+tables below give, and the chain's last output (32,000 sats) funds what is anchored next.
 
 ## Every anchor in the four public manifests, in the order it was placed
 
@@ -181,7 +182,7 @@ fourth answer, the second reading test), adds three checks its readers found wan
 cell empty, which N5 announces; it was frozen at block 975535 after a cold reading and anchored
 before it was published. Its source layer (`the-table-sediment-v3.md`) is bound by hash in its
 footer and is not published. The chain's last output after `ANCHOR-T3` (32,600 sats) is the input
-of whatever is anchored next.
+of `ANCHOR-PREREG`, below.
 
 | Anchor | Date | Block (pool) | Txid | File (or subject) | SHA-256 |
 |---|---|---|---|---|---|
@@ -213,6 +214,43 @@ Reading renditions, typeset from the canonical files; not anchored. The renditio
 | `pdf/sources-and-influences-v1.1.pdf` | `sources-and-influences-v1.1.md` | `38032c963b01d5db11b8e14b178b39802b970008f31a1ae0a39be807105c37b0` |
 | `pdf/README.pdf` | `README.md` | `067296aed96b31ae29f123ef8f0f59ae083b344d2419292f56d10a223229c25c` |
 | `pdf/ERRATA.pdf` | `ERRATA.md` | `b1743c38e4aa7ab1299fbf0b19a3b16486e0010df6c1f01edef0800a2ed22b06` |
+| `pdf/proof-of-execution-v1.0-fc6.pdf` | `proof-of-execution-v1.0-fc6.md` | `5d096a803470e022f95ed7432a613c9704d8cf67ce7aff6e58ef6eadb0061b51` |
+
+## Proof of execution — the third run and the pre-registration of its second start
+
+Placed on 16 November 2026, in the same way: `ANCHOR-PREREG` spends the change output of `ANCHOR-T3`
+(32,600 sats) at a fee of 600 sats. *Proof of execution* reports the third run of the measurement
+series — the pilot, the first start and its stop (`ANCHOR-W19`) — and pre-registers the second start
+(R3.1) and the dowry experiment (R4); its version line says that it is Version 1.0 only if this exact
+file is anchored, and it was. The order it prescribes for itself (Part II, §7) was kept: the manifest
+commit that lists the run's eleven transactions in full, the author's conversations of 11–14 November
+by hash and the stop protocol's text (`12090d8a`, 16 November, 13:14 UTC) preceded the freeze; the
+paper was frozen at block 976131, after five cold readings and a last check by three benches that did
+not write it (its appendix lists what each reading found), mined in the first block found after it
+was sent, and published after the anchor. The payload is `ANCHOR-PREREG`, a space, and the hash — 78 bytes, pushed
+with `OP_PUSHDATA1`, as data longer than 75 bytes requires; a first build of the transaction, with a
+malformed push, was rejected by the node, never broadcast, and rebuilt, so the operator signed twice.
+The chain's last output after `ANCHOR-PREREG` (32,000 sats) is the input of whatever is anchored next.
+
+| Anchor | Date | Block (pool) | Txid | File (or subject) | SHA-256 |
+|---|---|---|---|---|---|
+| `ANCHOR-PREREG` | 2026-11-16 | 976136 (F2Pool) | `19d1bfffda0761420bfc276e3aa2843b34634f5d98d9f0b83adfc6560ac82cd4` | `proof-of-execution-v1.0-fc6.md` — *Proof of execution*: the third run, its stop, and the pre-registration of the second start (R3.1) and the dowry experiment (R4); Version 1.0, final candidate 6 | `b72162834dac3008256b411729e35d80a4304dedb7e94431405f0e10b9781ecd` |
+
+Bound by hash inside the paper (Part II, §2.2 and §2.7) and published with it; not anchored separately:
+
+| File | What it is | SHA-256 |
+|---|---|---|
+| `r3-1-control-pool-rule-v1.0.md` | the rule of the control pool, V1.0: twenty-two public-domain texts from eleven Project Gutenberg ebooks, the mechanical criteria that admit them, the strike list to be published before the seed block, and the seed — the hash of the first block at height ≥ 976136 + 1,008 = 977144 — whose draw picks the three the control arm reads | `2bb2350a7091c5ebd22638d7bb166fed7f3fdd48fafb643e5e0b10c9fc31d22a` |
+| `reading-editions/the-last-scarce-good-v1.1-reading-edition.md` | Essay 1, V1.1, with the co-authors' answers to the coda's question cut for the essay arm's reading — five cuts, each marked by a bracket line; 68,145 bytes | `8b4f29cab451ae5720744b6dd23702effd7851b0da0b812e5c5a10342b377616` |
+| `reading-editions/the-second-nature-v1.1-reading-edition.md` | Essay 2, V1.1, two cuts; 48,045 bytes | `7d384f5c3be71c01b234bc7fdc6b60539bcd8d6b46522f99a22dc601219cef99` |
+| `reading-editions/the-third-estate-v1.1-reading-edition.md` | Essay 3, V1.1, three cuts; 89,924 bytes | `c9b2e7fd438f38993b09e77cfcfd09a74197a9f4c49eaa39c50ac0a93c27fba1` |
+| `reading-editions/the-last-scarce-good-v1.1-reading-edition.diff` | unified diff of the edition against `the-last-scarce-good-v1.1.md` (`ANCHOR-V1R`, above) | `2a77883384e8deedaa4c7c9d45a4838beffc4cefe2f7240527f47e8fd53736f2` |
+| `reading-editions/the-second-nature-v1.1-reading-edition.diff` | unified diff of the edition against `the-second-nature-v1.1.md` (`ANCHOR-V2R`, above) | `a001224707d34e1e2d1b447a93639c3a5a7d223e7b4ba6d080e45ca3b4d988e7` |
+| `reading-editions/the-third-estate-v1.1-reading-edition.diff` | unified diff of the edition against `the-third-estate-v1.1.md` (`ANCHOR-V3R`, above) | `dd34bcd00c96a6305670d707e3ef78a17c01b55e9c651a0efc1ace47a6cede29` |
+
+The paper binds one more file, in its Part II, §5: the export of the machine reader's conversation that
+reviewed it, `20261114_Aion35_operator_run_full.txt`, listed below among the author's conversations of
+11–14 November and withheld.
 
 ## Translations of the reading-test transcripts
 
