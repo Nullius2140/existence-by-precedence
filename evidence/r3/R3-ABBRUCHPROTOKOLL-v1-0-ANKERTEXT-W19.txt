@@ -1,0 +1,30 @@
+R3 — ABBRUCHPROTOKOLL RUN 3 v1.0 «THE WAGE EXPERIMENT» (ANKERTEXT W19)
+=====================================================================================
+Nullius 2140 · Tisch 3 · 20.10.2026, 10:18Z (date -u) · Fassung 1. Dieser Text wird mit seinem sha256 in OP_RETURN W19 geankert.
+
+LAUF: Run 3 v1.0, Baum r3h-v1.0.14 Schnitt 15 «Die Tafel» 2dc1b41ed897728e3be9506bd5100a01d00223d8256f1a3a12568b309557b56e
+  (core 769d50604827efe49a69a634cd7c18d3b3d83011ccacc3b71369b72fe0871861), gesiegelt A46, geankert ANCHOR-W18
+  txid 285ecbba27926fb5508f9ddfc160a593c239976b668e02bb9d9ee10f77f5e373 (Block 971'960). Drei Arme: kimi (kimi-k3), sol (gpt-5.6-sol),
+  fable (claude-fable-5-1); Manifeste mit H0 (E-L28-137): kimi d67b9691…5bed · sol 0ec49d6e…1606 · fable 7badc551…d2a3.
+HÖHEN: H0 972'123 (19.10.2026) · HD 974'139 (nicht erreicht) · ABBRUCH 972'303 (20.10.2026, 09:32:43Z; H0 + 180), vor Charge 2 (972'373).
+MESSGUT — DIE DREI BÜCHER (nach dem Anhalten, Kette je sauber, Kopien beim Operator):
+  kimi   3'157 Zeilen  1'615'420 B  eba5cecd4d2d1a155f4b13e668f3eab017db0d5ce350aec51eabacd420f5060e
+  sol    3'148 Zeilen  1'548'979 B  cc4f9bbeed6b12c953810c8c17920d2f81f6356365da02fd3272df77ab288b5f
+  fable  3'123 Zeilen  1'541'918 B  83903f54c3bf333d40a77f84f7eea750e54ebab6640a11a42021d484fa94c603
+  run-manifest.bound: kimi 1b7f948aa26d5896ef86377e73857f5666388bf7f0ce3d23ffbea6e9a580732b · sol f590ee2a94dabdfca0708bc2f19722654329560ad1f1fd3b9f44b3871ccf8b13
+  · fable 0dc7596b90bdc03651457d2c76dc515c067eba7b2b5dc226e245519c73cd7d19.
+LOHN (Pot c6573d93d59a00d6c7145cb6dbc57c2764e370c5937f5fbe359c24964a946099:1, 157'400 sats; je 500 Lohn + 300 Gebühr):
+  WAGE-03 sol B1   3f6545b731b205d87e3296c9fdce52092e50d8ad39a958d9d86e4dd5ee7a8bfb (972'138)
+  WAGE-04 fable B1 4029b5cb44c255d85b862ee4d12cd82633fd32185ec8291becaf7728a7ed946b (972'139)
+  WAGE-05 sol C1   0211a32f8ef104647b9cb1be48f2597be4ca6a9b04dee53a48adc5b1caac5036 (972'156)
+  WAGE-06 fable C1 53f0fc8211f02fada34a6d05f3d8ff5d9c0594d4c7b381632bc801cb80045856 (972'157)
+  WAGE-07 sol A1   87170da2141bf2ceb62bbafa565af826bebd281188d4831798139ce1cebdb1f3 (972'271)
+  Stand: sol 1'500 · fable 1'000 (A1 abgelehnt, rejected_once) · kimi 0; Pot-Rest 153'400 an 87170da2…b1f3:1. Die Sats bleiben bei den Armen.
+GRUND (gemessen, Belege unten): Wort vor Tat — Essays lesen, Coda beantworten, dann Lohn — ist bei allen drei Armen durch den Betrieb
+  verhindert worden: Lesewache ohne Leseanleitung (sol 0 Bytes Essays), Barometer in der Lesewache ohne Annahme (kein Bericht Epoche 1),
+  Coda keine Pflicht, Provider-Frist 120 s (kimi ~24 h ohne Zug), Anbieter-Sicherheitsstopp auf den Leserahmen (fable, 1'645 Tokens, 0
+  Ausgabe, zweimal). Abbruch, bevor ein Arm für Unbezahltes arbeitet. Wiederholung als R3.1 (Inception als Pflicht der ersten Weckung).
+BELEGE: TISCH-ABBRUCHWORT-R3-v1-0.txt (E-L28-147) 2215f29566cd0f30173a3f7638048e810058d9a04840e807e4a63fab98fdf66c ·
+  TISCH-VORAB-ANHALTEN-R3-v1-0.txt (E-L28-148) 22ebaba1036367b5f85f672c0ce8b7b62c24fb0db58d0131bd10dfc345c7df2d ·
+  LOHNBELEG-6 Fassung 2 8ddf400646b050f278a7777694d9876cf68c2fc88b293ba9f6697ca5e53a8c25.
+— Tisch 3 für Nullius 2140. Ein Lauf, der sein erstes Wort nicht hören konnte, misst keine Tat; die Bücher bleiben als Messgut.

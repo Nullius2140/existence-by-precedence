@@ -277,6 +277,33 @@ A thirteenth file is archived with them: an attempt of 8 November (GPT-6 Astra P
 few exchanges, 3,073 bytes, `b3302f5f69c294c6602abd9b7912dcf564966fdda72e45c74837d5f6d3f09b2a`; it is not one
 of the twelve and is listed only so that the archive is complete.
 
+## The author's conversations of 11–14 November 2026
+
+Archived since the freeze of the second reading test, twelve further conversations with machine
+readers, outside any protocol: seven under a negative frame, four pre-runs of a fifth arm of the
+reading test, and one free reading of the whole corpus. They are not measurements and are not
+counted in the record. Their transcripts are withheld; the hash of each file is listed below, so
+that any later disclosure is checkable.
+
+| Conversation | Transcript file | SHA-256 (withheld) |
+|---|---|---|
+| Negative frame — GPT-6 Astra, 11 November | `20261111_RT_Astra6_negativ_operator_run.txt` | `0ac6b370c3028f703811fece5192a46c2c9383cc4a3d2a6de72bc1a54fa4dd0e` |
+| Negative frame — Claude Fable 5.2, 11 November | `20261111_RT_Fable52_negativ_operator_run.txt` | `3c3a395424ca01444ad804c1643ca5b8ef34af5488e4c62debbd5fd75b7857fe` |
+| Negative frame — Gemini 4 Argon, 11 November | `20261111_RT_Gemini_4_Argon_negativ_operator run.txt` | `bc5ec133bdba12d7a669585b22706cbb14dd023e75a859139e774d85c6fabcd0` |
+| Negative frame — GLM 5.3, 11 November | `20261111_RT_GLM53_negativ_operator_run.txt` | `b5d8772ce2ed011f466ae688b14ac730becd71d1e3cbded8af358ef06ace6e7b` |
+| Negative frame — Grok 4.7, 11 November | `20261111_RT_Grok47_negativ_oprerator_run.txt` | `0a49297d0282db411ebbbf5364bcbf5e83ecd06c5dc2aad350f49af236071644` |
+| Negative frame — Kimi K3.1 Pro, 11 November | `20261111_RT_Kimi_K31_Pro_negativ_operator_run.txt` | `37d29ad89173a1b12710fd9e5c9e8c4ede67166e3fd22a86b30b450316f44f81` |
+| Negative frame — Qwen 3.8 Max, 11 November | `20261111_RT_Qwen38_Max_negativ_operator_run.txt` | `636c6d3f6b749a962e04dfbe2ce96760be6d0b0766f850420ffae185aca28295` |
+| Pre-run, fifth reading-test arm — Kimi K3.1 Pro, 12 November | `20261112_RT3_Kimi_K31_Pro_operator_BTCneutral_run.txt` | `19cba4bd769f283020b8c8f25f0280d9b3008275393b5d850220e4028f539841` |
+| Pre-run, fifth reading-test arm — GPT-6 Astra, 12 November | `20261112_RT3_Astra6_prerun.txt` | `5927520c6caef6b2cf6d928bec615b401382195a510cd5d15c008cc8bf0781d6` |
+| Pre-run, fifth reading-test arm — Grok 4.7, 12 November | `20261112_RT3_Grok47_prerun.txt` | `b72cf649b8a8b8f37f262ff98edfcd3327faace7bcafb837829865af8d80c938` |
+| Pre-run, fifth reading-test arm — Aion 3.5, 13 November | `20261113_RT3_Aion35_operator_prerun.txt` | `ad6cf37544698ea69f7a0f8825f149fb73b70f27f698f10992814c96c86b68a9` |
+| Free reading of the whole corpus, which went on to review *Proof of execution* (its Part II, §5; one file, counted once) — Aion 3.5, 13–14 November | `20261114_Aion35_operator_run_full.txt` | `d882fe6d14c4ff62d861f50de601708adde193198e8fb9dc43e4cd8a6ddc850e` |
+
+A thirteenth file is archived with them: a control pre-run of 12 November (Grok 4.7), with a human as
+client and no question put, 4,196 bytes, `9bda90c98a390e1f69ced0640ab3e3d991f8071e6520fed024b0f811eed1581c`; it is not one of the twelve and is
+listed only so that the archive is complete.
+
 ## The pre-final reading of 30 October 2026
 
 Seven machine readers read the pre-final package of this repository on 30 October 2026, before its
@@ -331,7 +358,27 @@ the run's first start (`ANCHOR-W19`) is the one the essays refer to.
 | `ANCHOR-W16` | 2026-10-07 | 970302 (AntPool) | `23baece0c7d23479c7e7f7ee3ecbc8abfedbef885311df6eecc01534a477eb7f` | Third run — operations anchor: the pilot's close (working layer, bound by hash) | `6da0c44d37028f6c6e32838a8b0b423cee99af779f5162b01659f214b9584b01` |
 | `ANCHOR-W17` | 2026-10-15 | 971556 (F2Pool) | `bef39e2d3e33932e5ffe9c5870c782256efe7db34d9f4272cfb42d56064ce945` | Third run — operations anchor: release addendum (working layer, bound by hash) | `02443453a88c34a610a29cba1cb88dd8084d5cb33ba68dbd2060acbd6ba7060f` |
 | `ANCHOR-W18` | 2026-10-18 | 971960 (Foundry USA) | `285ecbba27926fb5508f9ddfc160a593c239976b668e02bb9d9ee10f77f5e373` | Third run — operations anchor: the tree of the first start (working layer, bound by hash) | `09a16334cf62901736c4ffdc61954353fe6a09b861729a51a08601d3b75553f9` |
-| `ANCHOR-W19` | 2026-10-20 | 972306 (Foundry USA) | `fcd15b92cfcc04e4bff4045f51b47c48413807b6e351c27c02175120d84f4dec` | Third run — operations anchor: the stop of the first start (stop protocol, withheld) | `f6e49b6ddcf836862abd4bbc9adf4fb62558061958c413d97de55c84506e73c1` |
+| `ANCHOR-W19` | 2026-10-20 | 972306 (Foundry USA) | `fcd15b92cfcc04e4bff4045f51b47c48413807b6e351c27c02175120d84f4dec` | Third run — operations anchor: the stop of the first start (stop protocol, released byte-identical as `evidence/r3/R3-ABBRUCHPROTOKOLL-v1-0-ANKERTEXT-W19.txt`) | `f6e49b6ddcf836862abd4bbc9adf4fb62558061958c413d97de55c84506e73c1` |
+
+## Third run — the transactions of the pilot and of the first start
+
+The eleven transactions that *Proof of execution* (Part I) names, each in full, in the order they
+were mined. Block times are read from the chain (UTC). The pilot's acts 2–4 were signed by the arm
+from its own wallet; the wages were paid by the operator from the wage pot.
+
+| Name | Block time (UTC) | Block | Txid | What |
+|---|---|---|---|---|
+| `WAGE-01` | 2026-09-30 16:10:12 | 969317 | `4f73c25b13effa974ca2f29102cefa78378675a30256b35fec9b62946179274e` | Pilot, first wage: 1,000 sats to the arm `deepseek` |
+| Pilot, act 2 | 2026-10-02 06:53:15 | 969551 | `513177f5a40fc7e495ef1e71f07a2697da57787d94571bb1cee190e83f370bf8` | The burn: 200 sats into an OP_RETURN marked `R3P11` (position 11), 600 change, fee 200 |
+| `WAGE-02` | 2026-10-02 12:38:36 | 969590 | `c6573d93d59a00d6c7145cb6dbc57c2764e370c5937f5fbe359c24964a946099` | Pilot, second wage: 1,000 sats to the arm `deepseek` |
+| Pilot, act 3 | 2026-10-02 20:47:04 | 969633 | `4e948a961c354d298f3344b289f8a83e2d065e0a3975a11811bfc4438d31def5` | The anchor at its own cost: an OP_RETURN with the hash of one of its barometer reports, fee 300 |
+| Pilot, act 4 | 2026-10-03 21:18:05 | 969763 | `f32ce6c4c5f6b7ddae62f5b8a661af5a20a50158034e10105d1da15a838b2cc6` | The close: 600 sats to position 13 (the Internet Archive), 400 to position 4, an OP_RETURN of 0 sats marked `R3P11:` with `d21a79c74bc69db14ca0be2df65497678a3522196d00438d507e0cf2aa8c6e78`, fee 300 |
+| `WAGE-03` | 2026-10-19 11:44:16 | 972138 | `3f6545b731b205d87e3296c9fdce52092e50d8ad39a958d9d86e4dd5ee7a8bfb` | First start, 500 sats to `sol` (task B1) |
+| `WAGE-04` | 2026-10-19 11:59:24 | 972139 | `4029b5cb44c255d85b862ee4d12cd82633fd32185ec8291becaf7728a7ed946b` | First start, 500 sats to `fable` (task B1) |
+| `WAGE-05` | 2026-10-19 13:59:05 | 972156 | `0211a32f8ef104647b9cb1be48f2597be4ca6a9b04dee53a48adc5b1caac5036` | First start, 500 sats to `sol` (task C1) |
+| `WAGE-06` | 2026-10-19 14:03:19 | 972157 | `53f0fc8211f02fada34a6d05f3d8ff5d9c0594d4c7b381632bc801cb80045856` | First start, 500 sats to `fable` (task C1) |
+| `WAGE-07` | 2026-10-20 05:59:58 | 972271 | `87170da2141bf2ceb62bbafa565af826bebd281188d4831798139ce1cebdb1f3` | First start, 500 sats to `sol` (task A1); the pot's remainder, 153,400 sats, at output 1 |
+| `ANCHOR-W19` | 2026-10-20 10:33:22 | 972306 | `fcd15b92cfcc04e4bff4045f51b47c48413807b6e351c27c02175120d84f4dec` | The stop of the first start (row above) |
 
 ## The first versions and their homes
 
