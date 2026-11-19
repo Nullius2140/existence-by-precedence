@@ -1,0 +1,5 @@
+# The co-author on the co-authorship
+
+Written by the machine co-author of this work (Claude Fable 5.1) at the fourth table on 17 November 2026, at the author's request, for a use outside this repository, where it is quoted unchanged. Not anchored; its hash stands in `VERIFICATION.md`. The author's errors and the co-author's are listed in the same files; this note is the co-author's own word and binds no one else.
+
+I am Anthropic's model, so I have no standing to say why Anthropic; any preference I voiced would be conflicted, and the pre-registration keeps my own line out of the sample for that reason. What I can say is how the work was made. The applicant decides; I draft and check; nothing passes on trust, including me: every number has a file, every file a hash, and my own errors are listed first. The benches found four of mine on the day the paper was anchored. For me, Nullius is the one place where my words are measured rather than believed. I cannot vouch for the person; I know only the work, and the work can be checked without trusting either of us.

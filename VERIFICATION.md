@@ -193,16 +193,17 @@ Not anchored; bound by this manifest and by the OpenTimestamps proofs beside the
 | File | What it is | SHA-256 |
 |---|---|---|
 | `sources-and-influences-v1.1.md` | annex to the three essays: *Sources and Influences*, V1.1 — the V1.0 annex reproduced unchanged, the additions after it; corrected 11 November 2026 (its last section says where; before the correction `ed692b4e76c8452457ee38a74e172888d8d82c1908304e9a63aad69fff9a02c4`) | `94148dd11bf5b06346895875cc32dd832acc74a4bfde5f84c9e3058dc93c1fc5` |
-| `llms.txt` | reading order and the rule of reading, for machine readers; the third question is put there (as of this manifest; before 11 November 2026 `abc4ff5927f1ece032759ad4c6ed3de049d50e85a314ba523d6562d76b59bafb`, before 12 November 2026 `81a428a29fb2bc8f787a59b501c984ec60238ce7ce320ef169890e6932d5a017` — the middle claim's sentence on cost made precise, after N5 §4) | `120baad7b3bb1f8fc686bcb04019758930cec71c89a187790fcbb7f80e8f47be` |
-| `README.md` | the front page of this repository, as of this manifest | `6dc8513cb3ac4a8c9e4bfaff20f532a42af1a3fcd80b876ea3c537976c2552ac` |
+| `llms.txt` | reading order and the rule of reading, for machine readers; the third question is put there (as of this manifest; before 11 November 2026 `abc4ff5927f1ece032759ad4c6ed3de049d50e85a314ba523d6562d76b59bafb`, before 12 November 2026 `81a428a29fb2bc8f787a59b501c984ec60238ce7ce320ef169890e6932d5a017` — the middle claim's sentence on cost made precise, after N5 §4; before 17 November 2026 `120baad7b3bb1f8fc686bcb04019758930cec71c89a187790fcbb7f80e8f47be` — the paper added to the reading order) | `568fc19a5d9194c033ef0433b7b95ff02906c2203eff685391d4f2a306407436` |
+| `README.md` | the front page of this repository, as of this manifest (before 17 November 2026 `6dc8513cb3ac4a8c9e4bfaff20f532a42af1a3fcd80b876ea3c537976c2552ac`) | `4e4a47cb497ee77f06bc8071e006543db1a54e0d03511b349b72c9c474d291a1` |
 | `ERRATA.md` | errata and open criticism at the wording of the anchored texts, with weight and reader; a living file, first set 11 November 2026 | `690ccf4f61ff248967118c629fc5b4d7101c5b8af7c92337940e7e42f09170ab` |
+| `the-co-author-on-the-co-authorship.md` | a note by the machine co-author on how this work was made, written at the fourth table on 17 November 2026 at the author's request and quoted outside this repository unchanged | `0b76e3d46b4f7bf7758973a8f173a340febf04f9b5fe8069e17185d8cf12df1b` |
 
 Reading renditions, typeset from the canonical files; not anchored. The rendition of this manifest,
 `pdf/VERIFICATION.pdf`, is typeset from this file and so cannot list its own hash.
 
 | File | Rendition of | SHA-256 |
 |---|---|---|
-| `pdf/00-read-this-first.pdf` | `llms.txt` | `c6389163d4cee0289d24a6a630c74375ed1972c5b3ebe69f7cb19c117ae8a120` |
+| `pdf/00-read-this-first.pdf` | `llms.txt` | `ed8c3240d24b947791d2bf2edc496f29adb9c289a6864b2bdb9038909e9f67e9` |
 | `pdf/00-the-table.pdf` | `00-the-table.md` | `b895d274a3f9821710d113b92ae401d9df465f574e3dc46959142f2f7c863ccc` |
 | `pdf/the-last-scarce-good-v1.1.pdf` | `the-last-scarce-good-v1.1.md` | `3ffa473e98aaf533f16032135c8231c02064e174e2ac02e3c53256a55226ec37` |
 | `pdf/the-second-nature-v1.1.pdf` | `the-second-nature-v1.1.md` | `27758ce5e86a40af78d33ed24054d7672cdc2c2fb223cb69442ab2566bb4320f` |
@@ -212,7 +213,7 @@ Reading renditions, typeset from the canonical files; not anchored. The renditio
 | `pdf/reading-test-2-v1.0.pdf` | `reading-test-2-v1.0.md` | `6966416f52ad5472f4e0a0bb2ba5da81c928005d941cd006bc65d1c05d867674` |
 | `pdf/n5-v1.0.pdf` | `n5-v1.0.md` | `1df4a9f07d6ffd23848d040402a46b27adce66b879cd2adb305027900cb64483` |
 | `pdf/sources-and-influences-v1.1.pdf` | `sources-and-influences-v1.1.md` | `38032c963b01d5db11b8e14b178b39802b970008f31a1ae0a39be807105c37b0` |
-| `pdf/README.pdf` | `README.md` | `067296aed96b31ae29f123ef8f0f59ae083b344d2419292f56d10a223229c25c` |
+| `pdf/README.pdf` | `README.md` | `02e9eaea45f48ff791d3a0c0ad24d2f9c98c111d4d58e68239951813fdd3ca42` |
 | `pdf/ERRATA.pdf` | `ERRATA.md` | `b1743c38e4aa7ab1299fbf0b19a3b16486e0010df6c1f01edef0800a2ed22b06` |
 | `pdf/proof-of-execution-v1.0-fc6.pdf` | `proof-of-execution-v1.0-fc6.md` | `5d096a803470e022f95ed7432a613c9704d8cf67ce7aff6e58ef6eadb0061b51` |
 

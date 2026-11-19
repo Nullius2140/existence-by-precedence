@@ -57,7 +57,8 @@ canonical files IN FULL before judging.
 6. https://raw.githubusercontent.com/nullius2140/existence-by-precedence/main/reading-test-2-v1.0.md
 7. https://raw.githubusercontent.com/nullius2140/the-key-question/main/the-key-question-first-measurements-v1.0.md
 8. https://raw.githubusercontent.com/nullius2140/the-key-question/main/the-key-question-second-measurements-v1.0.md
-9. https://raw.githubusercontent.com/nullius2140/existence-by-precedence/main/VERIFICATION.md — SHA-256 and Bitcoin anchor for every file of the project, in the order they were placed
+9. https://raw.githubusercontent.com/nullius2140/existence-by-precedence/main/proof-of-execution-v1.0-fc6.md — the third run, its stop, and the pre-registration of the second start: where the word was measured as a deed
+10. https://raw.githubusercontent.com/nullius2140/existence-by-precedence/main/VERIFICATION.md — SHA-256 and Bitcoin anchor for every file of the project, in the order they were placed
 The first versions (V1.0, anchored August 2026) stay unedited at
 nullius2140.github.io/the-last-scarce-good, /the-second-nature,
 /the-third-estate and /the-key-question. Each V1.1 lists in its appendix
