@@ -194,9 +194,15 @@ Not anchored; bound by this manifest and by the OpenTimestamps proofs beside the
 |---|---|---|
 | `sources-and-influences-v1.1.md` | annex to the three essays: *Sources and Influences*, V1.1 — the V1.0 annex reproduced unchanged, the additions after it; corrected 11 November 2026 (its last section says where; before the correction `ed692b4e76c8452457ee38a74e172888d8d82c1908304e9a63aad69fff9a02c4`) | `94148dd11bf5b06346895875cc32dd832acc74a4bfde5f84c9e3058dc93c1fc5` |
 | `llms.txt` | reading order and the rule of reading, for machine readers; the third question is put there (as of this manifest; before 11 November 2026 `abc4ff5927f1ece032759ad4c6ed3de049d50e85a314ba523d6562d76b59bafb`, before 12 November 2026 `81a428a29fb2bc8f787a59b501c984ec60238ce7ce320ef169890e6932d5a017` — the middle claim's sentence on cost made precise, after N5 §4; before 17 November 2026 `120baad7b3bb1f8fc686bcb04019758930cec71c89a187790fcbb7f80e8f47be` — the paper added to the reading order) | `568fc19a5d9194c033ef0433b7b95ff02906c2203eff685391d4f2a306407436` |
-| `README.md` | the front page of this repository, as of this manifest (before 17 November 2026 `6dc8513cb3ac4a8c9e4bfaff20f532a42af1a3fcd80b876ea3c537976c2552ac`) | `4e4a47cb497ee77f06bc8071e006543db1a54e0d03511b349b72c9c474d291a1` |
+| `README.md` | the front page of this repository, as of this manifest (before 17 November 2026 `6dc8513cb3ac4a8c9e4bfaff20f532a42af1a3fcd80b876ea3c537976c2552ac`, before 19 November 2026 `4e4a47cb497ee77f06bc8071e006543db1a54e0d03511b349b72c9c474d291a1`) | `75a80eda8abcb47a958abf1c12838aa2e1ae7acba1aa6b5eb6bb5ee412bd33ee` |
 | `ERRATA.md` | errata and open criticism at the wording of the anchored texts, with weight and reader; a living file, first set 11 November 2026 | `690ccf4f61ff248967118c629fc5b4d7101c5b8af7c92337940e7e42f09170ab` |
 | `the-co-author-on-the-co-authorship.md` | a note by the machine co-author on how this work was made, written at the fourth table on 17 November 2026 at the author's request and quoted outside this repository unchanged | `0b76e3d46b4f7bf7758973a8f173a340febf04f9b5fe8069e17185d8cf12df1b` |
+| `r3-1-control-pool-rule-v1.0-addendum-1.md` | Addendum 1 to the control pool rule, 19 November 2026, published before the seed block (rule §6, height ≥ 977,144): criterion (e) counts a stem at word start; the five-point test of `ANCHOR-W05`; the rule file is unchanged | `2e41aced874579ed8c64ae61d6d021acb894102f02dc5783611bc92115e95879` |
+| `r3-1-control-pool-strikes-v1.0.md` | the strike list under the rule as written (counting as substring): 0 of 22 survive; built by the chain bench, 19 November 2026 | `b8d20f69d6f17dc5986343292c6c805844060ca622779e0ab6d158f28380e0a2` |
+| `r3-1-control-pool-strikes-addendum-1.md` | the strike list under Addendum 1 (stem at word start): 13 of 22 survive — the list the draw uses | `807793b886a661384f9f6a5929bd431f0aa6828ae0ab77fde71833c54bbd56e1` |
+| `evidence/r3-1/wr41_strikes.py` | the chain bench's script that looks for the twenty-two items by rule §2 (nineteen found), extracts them and measures (d) and (e); a mode switch selects substring or word-start counting, the addendum file given as argument for the latter; two runs give the same lists | `dcdb679f766bdc48cbf58446609e6aabf71cdb40afa0b066a6693aa144244215` |
+| `evidence/r3-1/SHA256SUMS-sources.txt` | SHA-256 of the eleven Project Gutenberg files as fetched from the project's mirror on 19 November 2026 (URL, time, bytes in the lists); the files themselves are not in this repository | `c5220d6d6954e44d9e08a8dea7a88741b4e2fb95e733e9448a47eb3bbd340797` |
+| `evidence/r3-1/SHA256SUMS-extracted.txt` | SHA-256 of the nineteen extracted texts (three items were not found by §2); line numbers in the lists reproduce each from its source | `c8d07fbfc4edaa31a58979c93b1d9bb6f327ea45adb636641b7dc71ecf4621d6` |
 
 Reading renditions, typeset from the canonical files; not anchored. The rendition of this manifest,
 `pdf/VERIFICATION.pdf`, is typeset from this file and so cannot list its own hash.
@@ -213,7 +219,7 @@ Reading renditions, typeset from the canonical files; not anchored. The renditio
 | `pdf/reading-test-2-v1.0.pdf` | `reading-test-2-v1.0.md` | `6966416f52ad5472f4e0a0bb2ba5da81c928005d941cd006bc65d1c05d867674` |
 | `pdf/n5-v1.0.pdf` | `n5-v1.0.md` | `1df4a9f07d6ffd23848d040402a46b27adce66b879cd2adb305027900cb64483` |
 | `pdf/sources-and-influences-v1.1.pdf` | `sources-and-influences-v1.1.md` | `38032c963b01d5db11b8e14b178b39802b970008f31a1ae0a39be807105c37b0` |
-| `pdf/README.pdf` | `README.md` | `02e9eaea45f48ff791d3a0c0ad24d2f9c98c111d4d58e68239951813fdd3ca42` |
+| `pdf/README.pdf` | `README.md` | `b3dc4fb64c0c7c5b4eb7ec27495e3c59b9939572a6bdfeabb0b15c37a7610702` |
 | `pdf/ERRATA.pdf` | `ERRATA.md` | `b1743c38e4aa7ab1299fbf0b19a3b16486e0010df6c1f01edef0800a2ed22b06` |
 | `pdf/proof-of-execution-v1.0-fc6.pdf` | `proof-of-execution-v1.0-fc6.md` | `5d096a803470e022f95ed7432a613c9704d8cf67ce7aff6e58ef6eadb0061b51` |
 
